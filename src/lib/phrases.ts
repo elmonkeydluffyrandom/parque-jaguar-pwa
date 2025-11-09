@@ -374,7 +374,68 @@ export const phraseData: PhraseCategory[] = [
       {
         id: 'arrival-platform',
         name: 'Plataforma de Llegada',
-        phrases: [],
+        phrases: [
+          {
+            id: 28,
+            translations: {
+              es: '¿Está bien?',
+              en: 'Are you okay?',
+              fr: 'Ça va ?',
+              it: 'Sta bene?',
+            },
+            phonetics: {
+              es: '¿Está bien?',
+              en: "/a: ju ǝu'keı/",
+              fr: '/sa va/',
+              it: "/sta 'be:ne/",
+            },
+          },
+          {
+            id: 29,
+            translations: {
+              es: '¿Le gustó la experiencia?',
+              en: 'Did you enjoy the experience?',
+              fr: "Avez-vous aimé l'expérience ?",
+              it: "Le è piaciuta l'esperienza?",
+            },
+            phonetics: {
+              es: '¿Le gustó la experiencia?',
+              en: "/dɪd ju ɪn'dʒɔɪ ði ɪks'pɪəriəns/",
+              fr: '/ave vu zeme lɛksperjɑ̃s/',
+              it: "/le ɛ pja'tʃuta lesper'jentsa/",
+            },
+          },
+          {
+            id: 30,
+            translations: {
+              es: 'Gracias por volar con nosotros.',
+              en: 'Thank you for flying with us.',
+              fr: 'Merci d’avoir volé avec nous.',
+              it: 'Grazie per aver volato con noi.',
+            },
+            phonetics: {
+              es: 'Gracias por volar con nosotros.',
+              en: "/θæŋk ju fə 'flaɪɪŋ wɪð əs/",
+              fr: '/mɛrsi davwar vɔle avɛk nu/',
+              it: "/'grattsje per a'ver vo'lato kon 'noi/",
+            },
+          },
+          {
+            id: 31,
+            translations: {
+              es: 'Puede descansar un momento antes de continuar.',
+              en: 'You can rest for a moment before continuing.',
+              fr: 'Vous pouvez vous reposer un moment avant de continuer.',
+              it: 'Può riposarsi un momento prima di continuare.',
+            },
+            phonetics: {
+              es: 'Puede descansar un momento antes de continuar.',
+              en: "/ju kən rest fə ə 'məʊmənt bɪ'fɔ: kən'tɪnju:ɪŋ/",
+              fr: '/vu puve vu kəpoze œ̃ mɔmã avã də kõtinɥe/',
+              it: "/pwɔ ripo'sarsi un mo'mento 'prima di kontinu'are/",
+            },
+          },
+        ],
       },
     ],
   },

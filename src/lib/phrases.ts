@@ -27,7 +27,7 @@ export type PhraseCategory = {
 export const phraseData: PhraseCategory[] = [
   {
     id: 'reception',
-    name: 'Reception',
+    name: 'Recepción',
     icon: ConciergeBell,
     phrases: [
       {
@@ -199,7 +199,7 @@ export const phraseData: PhraseCategory[] = [
   },
   {
     id: 'zip-lining',
-    name: 'Zip-lining',
+    name: 'Tirolesa',
     icon: Mountain,
     phrases: [
       {
@@ -236,7 +236,7 @@ export const phraseData: PhraseCategory[] = [
   },
   {
     id: 'restaurant',
-    name: 'Restaurant',
+    name: 'Restaurante',
     icon: Utensils,
     phrases: [
       {
@@ -273,7 +273,7 @@ export const phraseData: PhraseCategory[] = [
   },
     {
     id: 'trails',
-    name: 'Trails',
+    name: 'Senderos',
     icon: Footprints,
     phrases: [
       {

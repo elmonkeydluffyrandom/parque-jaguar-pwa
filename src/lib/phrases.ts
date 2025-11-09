@@ -1,5 +1,6 @@
+
 import type { LucideIcon } from 'lucide-react'
-import { ConciergeBell, Footprints, Mountain, Utensils } from 'lucide-react'
+import { Bike, ConciergeBell, Mountain, Sailboat } from 'lucide-react'
 
 export type Phrase = {
   id: number
@@ -440,77 +441,15 @@ export const phraseData: PhraseCategory[] = [
     ],
   },
   {
-    id: 'restaurant',
-    name: 'Restaurante',
-    icon: Utensils,
-    phrases: [
-      {
-        id: 5,
-        translations: {
-          es: 'Mesa para dos, por favor.',
-          en: 'Table for two, please.',
-          fr: 'Une table pour deux, s’il vous plaît.',
-          it: 'Un tavolo per due, per favore.',
-        },
-        phonetics: {
-          es: '/ˈmesa ˈpaɾa ðos, poɾ faˈβoɾ./',
-          en: '/ˈteɪbəl fɔːr tuː, pliːz./',
-          fr: '/yn tabl puʁ dø, sil vu plɛ./',
-          it: '/un ˈtaːvolo per ˈduːe, per faˈvoːre./',
-        },
-      },
-      {
-        id: 6,
-        translations: {
-          es: '¿Cuál es la especialidad de la casa?',
-          en: 'What is the specialty of the house?',
-          fr: 'Quelle est la spécialité de la maison ?',
-          it: 'Qual è la specialità della casa?',
-        },
-        phonetics: {
-          es: '/ˈkwal es la espeθjaliˈðað ðe la ˈkasa?/',
-          en: '/wʌt ɪz ðə ˈspɛʃəlti ʌv ðə haʊs?/',
-          fr: '/kɛl ɛ la spesjalite də la mɛzɔ̃?/',
-          it: '/ˈkwal ɛ la spetʃaliˈta ˈdella ˈkaːza?/',
-        },
-      },
-    ],
+    id: 'kayak',
+    name: 'Kayak',
+    icon: Sailboat,
+    phrases: [],
   },
   {
-    id: 'trails',
-    name: 'Senderos',
-    icon: Footprints,
-    phrases: [
-      {
-        id: 7,
-        translations: {
-          es: 'Siga el sendero verde.',
-          en: 'Follow the green trail.',
-          fr: 'Suivez le sentier vert.',
-          it: 'Segui il sentiero verde.',
-        },
-        phonetics: {
-          es: '/ˈsiɣa el senˈdeɾo ˈβeɾðe./',
-          en: '/ˈfɒloʊ ðə ɡriːn treɪl./',
-          fr: '/sɥive lə sɑ̃tje vɛʁ./',
-          it: '/ˈseɡwi il senˈtjɛːro ˈverde./',
-        },
-      },
-      {
-        id: 8,
-        translations: {
-          es: 'Tenga cuidado, el camino es resbaladizo.',
-          en: 'Be careful, the path is slippery.',
-          fr: 'Attention, le chemin est glissant.',
-          it: 'Fai attenzione, il sentiero è scivoloso.',
-        },
-        phonetics: {
-          es: '/ˈtenɡa kwiˈðaðo, el kaˈmino es resβalaˈðiso./',
-          en: '/bi ˈkɛərfʊl, ðə pɑːθ ɪz ˈslɪpəri./',
-          fr: '/atɑ̃sjɔ̃, lə ʃəmɛ̃ ɛ ɡlisɑ̃./',
-          it: '/fai attenˈtsjoːne, il senˈtjɛːro ɛ ʃivoˈloːzo./',
-        },
-      },
-    ],
+    id: 'bicycle',
+    name: 'Bicicleta',
+    icon: Bike,
+    phrases: [],
   },
 ]

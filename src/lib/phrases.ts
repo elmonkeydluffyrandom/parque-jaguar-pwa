@@ -41,16 +41,16 @@ export const phraseData: PhraseCategory[] = [
       {
         id: 1,
         translations: {
-          es: '¡Hola, bienvenido al Parque Ecoturístico Jaguar!',
-          en: 'Hello, welcome to Jaguar Ecotourism Park!',
-          fr: 'Bonjour, bienvenue au Parc Écotouristique Jaguar !',
-          it: 'Ciao, benvenuto al Parco Ecoturistico Jaguar!',
+          es: '¡Hola, bienvenido al Parque Jaguar!',
+          en: 'Hello, welcome to Jaguar Park!',
+          fr: 'Bonjour, bienvenue au Parc Jaguar !',
+          it: 'Ciao, benvenuto al Parco Jaguar!',
         },
         phonetics: {
-          es: '¡Hola, bienvenido al Parque Ecoturístico Jaguar!',
-          en: "/hə'loʊ 'wɛlkəm tu 'dʒægwar 'i:koʊ tʊrɪzəm pɑrk/",
-          fr: '/bɔ̃ʒuʁ bjɛ̃vəny o paʁk ekotuʁistik ʒagwaʁ/',
-          it: "/'tʃa.o ben've:nuto al 'parkɔ ekotu'ristiko ʒa'gwar/",
+          es: '¡Hola, bienvenido al Parque Jaguar!',
+          en: "/hə'loʊ 'wɛlkəm tu 'dʒægwar pɑrk/",
+          fr: '/bɔ̃ʒuʁ bjɛ̃vəny o paʁk ʒagwaʁ/',
+          it: "/'tʃa.o ben've:nuto al 'parkɔ ʒa'gwar/",
         },
       },
       {

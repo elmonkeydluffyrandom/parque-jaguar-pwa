@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'JaguarSpeak',
-  description: 'Language tool for Jaguar Ecotourism Park',
+  title: 'Parque Jaguar',
+  description: 'Herramienta de idiomas para el Parque Jaguar.',
 };
 
 export default function RootLayout({

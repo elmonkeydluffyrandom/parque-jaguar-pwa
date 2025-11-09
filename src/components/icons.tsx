@@ -3,6 +3,28 @@
 
 const svgClassName = "h-6 w-8 rounded-sm"
 
+export const JaguarIcon = ({ className }: { className?: string }) => (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+    >
+      <path d="M10.79 3.25a1.5 1.5 0 0 0-1.58 0C6.23 4.41 4 7.63 4 10.5c0 2.65 1.89 4.88 4.34 5.66" />
+      <path d="M13.21 3.25a1.5 1.5 0 0 1 1.58 0c2.98 1.16 5.21 4.38 5.21 7.25 0 2.65-1.89 4.88-4.34 5.66" />
+      <path d="M7 14.5c0 2 1.5 3.5 3.5 3.5s3.5-1.5 3.5-3.5" />
+      <path d="M12 21a2 2 0 0 0 2-2V11" />
+      <path d="M12 21a2 2 0 0 1-2-2V11" />
+      <path d="M11 12a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z" />
+      <path d="M6 9a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z" />
+      <path d="M16 9a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z" />
+    </svg>
+  );
+
 export const SpainFlag = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

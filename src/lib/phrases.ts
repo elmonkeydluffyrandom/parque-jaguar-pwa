@@ -773,6 +773,144 @@ export const phraseData: PhraseCategory[] = [
     id: 'atv',
     name: 'Cuatrimoto',
     icon: Car,
-    phrases: [],
+    phrases: [
+      {
+        id: 53,
+        translations: {
+          es: 'Use el casco en todo momento.',
+          en: 'Please wear your helmet at all times.',
+          fr: 'Portez votre casque en tout temps.',
+          it: 'Indossi sempre il casco.',
+        },
+        phonetics: {
+          es: 'Use el casco en todo momento.',
+          en: "/pliz weə jɔ: 'helmɪt æt ɔ:l taɪmz/",
+          fr: '/pɔʁte vɔtʁ kask ɑ̃ tu tɑ̃/',
+          it: "/in'dossi 'sɛmpre il 'kasko/",
+        },
+      },
+      {
+        id: 54,
+        translations: {
+          es: 'Mantenga una velocidad moderada durante el recorrido.',
+          en: 'Keep a moderate speed during the ride.',
+          fr: 'Gardez une vitesse modérée pendant la balade.',
+          it: 'Mantenga una velocità moderata durante il percorso.',
+        },
+        phonetics: {
+          es: 'Mantenga una velocidad moderada durante el recorrido.',
+          en: "/ki:p ə 'mɒdərət spi:d 'djʊərɪŋ ðə raɪd/",
+          fr: '/gaʁde yn vitɛs mɔdeʁe pɑ̃dɑ̃ la balad/',
+          it: "/man'tenga 'una velotʃi'ta mode'rata du'rante il per'korso/",
+        },
+      },
+      {
+        id: 55,
+        translations: {
+          es: 'No acelere demasiado ni haga giros bruscos.',
+          en: "Don't accelerate too much or make sharp turns.",
+          fr: "N'accélérez pas trop et ne faites pas de virages brusques.",
+          it: 'Non acceleri troppo e non faccia curve brusche.',
+        },
+        phonetics: {
+          es: 'No acelere demasiado ni haga giros bruscos.',
+          en: "/dəʊnt ək'sɛləreɪt tu: mʌtʃ ɔ: meɪk ʃɑ:p tɜ:nz/",
+          fr: '/naksɛleʁe pa tʁo e nə fɛt pa də viʁaʒ bʁysk/',
+          it: "/non at'tʃel:eri 'troppo e non 'fattʃa 'kurve 'bruske/",
+        },
+      },
+      {
+        id: 56,
+        translations: {
+          es: 'No rebase a los demás participantes.',
+          en: 'Do not overtake other riders.',
+          fr: 'Ne doublez pas les autres conducteurs.',
+          it: 'Non sorpassi gli altri partecipanti.',
+        },
+        phonetics: {
+          es: 'No rebase a los demás participantes.',
+          en: "/du nɒt ˌəʊvə'teɪk ˈʌðə ˈraɪdəz/",
+          fr: '/nə duble pa lez otʁə kɔ̃dyktœʁ/',
+          it: "/non sor'passi ʎi 'altri partetʃi'panti/",
+        },
+      },
+      {
+        id: 57,
+        translations: {
+          es: 'Mantenga ambas manos en el manubrio.',
+          en: 'Keep both hands on the handlebar.',
+          fr: 'Gardez les deux mains sur le guidon.',
+          it: 'Tenga entrambe le mani sul manubrio.',
+        },
+        phonetics: {
+          es: 'Mantenga ambas manos en el manubrio.',
+          en: "/ki:p bəʊθ hændz ɒn ðə 'hændlbɑː/",
+          fr: '/gaʁde le dø mɛ̃ syʁ lə gidɔ̃/',
+          it: "/'tenga en'trambe le 'mani sul ma'nu:brio/",
+        },
+      },
+      {
+        id: 58,
+        translations: {
+          es: 'Evite zonas con lodo o piedras sueltas.',
+          en: 'Avoid muddy or rocky areas.',
+          fr: 'Évitez les zones boueuses ou pierreuses.',
+          it: 'Eviti le zone fangose o rocciose.',
+        },
+        phonetics: {
+          es: 'Evite zonas con lodo o piedras sueltas.',
+          en: "/ə'vɔɪd 'mʌdi ɔ: 'rɒki 'eəriəz/",
+          fr: '/evite le zon buøz u pjɛʁøz/',
+          it: "/'eviti le 'tsone fan'go:ze o rot'tʃoze/",
+        },
+      },
+      {
+        id: 59,
+        translations: {
+          es: 'Si la moto se detiene, espere al guía.',
+          en: 'If the ATV stops, wait for the guide.',
+          fr: "Si le quad s'arrête, attendez le guide.",
+          it: "Se il quad si ferma, aspetti la guida.",
+        },
+        phonetics: {
+          es: 'Si la moto se detiene, espere al guía.',
+          en: "/ɪf ði 'eɪti:'vi: stɒps weɪt fə ðə gaɪd/",
+          fr: '/si lə kwad saʁɛt atɑ̃de lə gid/',
+          it: "/se il 'kwad si 'ferma a'spetti la 'gwi:da/",
+        },
+      },
+      {
+        id: 60,
+        translations: {
+          es: 'No tire basura durante el recorrido.',
+          en: "Please don't litter during the ride.",
+          fr: 'Ne jetez pas de déchets pendant la balade.',
+          it: 'Non getti rifiuti durante il percorso.',
+        },
+        phonetics: {
+          es: 'No tire basura durante el recorrido.',
+          en: "/pliz dəʊnt 'lɪtə 'djʊərɪŋ ðə raɪd/",
+          fr: '/nə ʒəte pa də deʃɛ pɑ̃dɑ̃ la balad/',
+          it: "/non 'dʒetti ri'fjuti du'rante il per'korso/",
+        },
+      },
+      {
+        id: 61,
+        translations: {
+          es: 'Gracias por participar, esperamos que haya disfrutado el recorrido.',
+          en: 'Thank you for riding with us, we hope you enjoyed it.',
+          fr: "Merci d'avoir fait la balade avec nous, nous espérons que vous avez aimé.",
+          it: "Grazie per aver partecipato, speriamo che le sia piaciuto.",
+        },
+        phonetics: {
+          es: 'Gracias por participar, esperamos que haya disfrutado el recorrido.',
+          en: "/θæŋk ju fə 'raɪdɪŋ wɪð əs wi həʊp ju ɪn'dʒɔɪd ɪt/",
+          fr: "/mɛʁsi davwaʁ fɛ la balad avɛk nu nu zɛspɛʁɔ̃ kə vu ave ɛme/",
+          it: "/'grattsje per a'ver partetʃi'pato sper'jamo ke le sia pja'tʃuto/",
+        },
+      },
+    ],
   },
 ]
+
+    

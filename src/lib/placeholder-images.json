@@ -1,9 +1,9 @@
 {
   "parkMap": {
-    "src": "https://picsum.photos/seed/parque-jaguar/1200/900",
-    "width": 1200,
-    "height": 900,
-    "alt": "Un mapa aéreo de un parque de aventuras en la jungla.",
-    "hint": "jungle park map"
+    "src": "https://storage.googleapis.com/maker-studio-5f405.appspot.com/prompt_images/de9a3205-b040-4137-888a-d5ba9427b3d3/0.png",
+    "width": 1280,
+    "height": 544,
+    "alt": "Un mapa aéreo del Parque Jaguar.",
+    "hint": "jungle adventure park"
   }
 }

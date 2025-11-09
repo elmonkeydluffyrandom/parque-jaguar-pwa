@@ -7,17 +7,28 @@ export function Phrasebook() {
   if (!phraseData || phraseData.length === 0) {
     return <p>No phrases available.</p>
   }
+  
+  // Filter out categories that don't have phrases or subcategories to show
+  const displayableCategories = phraseData.filter(category => 
+    (category.phrases && category.phrases.length > 0) || 
+    (category.subCategories && category.subCategories.length > 0)
+  );
+
+  if (displayableCategories.length === 0) {
+    return <p>No phrases available for any category.</p>
+  }
+
   return (
-    <Tabs defaultValue={phraseData[0].id} className="w-full">
-      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-3 md:grid-cols-5">
-        {phraseData.map((category) => (
+    <Tabs defaultValue={displayableCategories[0].id} className="w-full">
+      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7">
+        {displayableCategories.map((category) => (
           <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-xs sm:text-sm md:text-base">
             <category.icon className="h-5 w-5" />
             <span className="font-headline">{category.name}</span>
           </TabsTrigger>
         ))}
       </TabsList>
-      {phraseData.map((category) => (
+      {displayableCategories.map((category) => (
         <TabsContent key={category.id} value={category.id} className="mt-6">
           {category.phrases && (
              <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">

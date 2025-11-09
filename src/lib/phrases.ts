@@ -1,6 +1,6 @@
 
 import type { LucideIcon } from 'lucide-react'
-import { Bike, Car, ConciergeBell, Mountain, Sailboat } from 'lucide-react'
+import { Bike, Car, ConciergeBell, Mountain, Sailboat, Coffee, Theater, Restroom } from 'lucide-react'
 
 export type Phrase = {
   id: number
@@ -911,6 +911,22 @@ export const phraseData: PhraseCategory[] = [
       },
     ],
   },
+  {
+    id: 'cafeteria',
+    name: 'Cafetería',
+    icon: Coffee,
+    phrases: [],
+  },
+  {
+    id: 'amphitheater',
+    name: 'Anfiteatro',
+    icon: Theater,
+    phrases: [],
+  },
+  {
+    id: 'restrooms',
+    name: 'Baños',
+    icon: Restroom,
+    phrases: [],
+  },
 ]
-
-    

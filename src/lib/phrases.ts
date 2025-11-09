@@ -1,6 +1,6 @@
 
 import type { LucideIcon } from 'lucide-react'
-import { Bike, ConciergeBell, Mountain, Sailboat } from 'lucide-react'
+import { Bike, Car, ConciergeBell, Mountain, Sailboat } from 'lucide-react'
 
 export type Phrase = {
   id: number
@@ -646,6 +646,133 @@ export const phraseData: PhraseCategory[] = [
     id: 'bicycle',
     name: 'Bicicleta',
     icon: Bike,
+    phrases: [
+      {
+        id: 45,
+        translations: {
+          es: 'Use el casco durante todo el recorrido.',
+          en: 'Please wear your helmet during the whole ride.',
+          fr: 'Portez votre casque pendant tout le parcours.',
+          it: 'Indossi il casco durante tutto il percorso.',
+        },
+        phonetics: {
+          es: 'Use el casco durante todo el recorrido.',
+          en: "/pliz weə jɔ: 'helmıt 'djuərın də həul raid/",
+          fr: '/pɔrte vɔtr kas pɑ̃dɑ̃ tu lə parkur/',
+          it: "/in'dossi il 'kasko du'rante 'tutto il per'korso/",
+        },
+      },
+      {
+        id: 46,
+        translations: {
+          es: 'Mantenga siempre a la vista al guía del grupo.',
+          en: 'Always keep the group guide in sight.',
+          fr: 'Gardez toujours le guide du groupe en vue.',
+          it: 'Tenga sempre in vista la guida del gruppo.',
+        },
+        phonetics: {
+          es: 'Mantenga siempre a la vista al guía del grupo.',
+          en: "/'ɔ:lweız ki:p ðə gru:p gaɪd ɪn saɪt/",
+          fr: '/garde tuʒur lə gid dy grup ɑ̃ vy/',
+          it: "/'tenga 'sempre in 'vista la 'gwi:da del 'gruppo/",
+        },
+      },
+      {
+        id: 47,
+        translations: {
+          es: 'No salga del sendero marcado.',
+          en: "Don't leave the marked trail.",
+          fr: 'Ne quittez pas le sentier balisé.',
+          it: 'Non esca dal sentiero segnalato.',
+        },
+        phonetics: {
+          es: 'No salga del sendero marcado.',
+          en: "/dəʊnt li:v ðə mɑ:kt treɪl/",
+          fr: '/nə kite pa lə sɑ̃tje balize/',
+          it: "/non 'ɛska dal sen'tjero seɲɲa'lato/",
+        },
+      },
+      {
+        id: 48,
+        translations: {
+          es: 'Mantenga una velocidad moderada.',
+          en: 'Keep a moderate speed.',
+          fr: 'Gardez une vitesse modérée.',
+          it: 'Mantenga una velocità moderata.',
+        },
+        phonetics: {
+          es: 'Mantenga una velocidad moderada.',
+          en: "/ki:p ə 'mɒdərət spi:d/",
+          fr: '/garde yn vites mɔdeʁe/',
+          it: "/man'tenga 'una velotʃi'ta mode'rata/",
+        },
+      },
+      {
+        id: 49,
+        translations: {
+          es: 'Si necesita ayuda, levante la mano.',
+          en: 'If you need help, raise your hand.',
+          fr: "Si vous avez besoin d'aide, levez la main.",
+          it: 'Se ha bisogno di aiuto, alzi la mano.',
+        },
+        phonetics: {
+          es: 'Si necesita ayuda, levante la mano.',
+          en: "/ɪf ju ni:d hɛlp reɪz jɔ: hænd/",
+          fr: '/si vuz ave bəzwɛ̃ dɛd ləve la mɛ̃/',
+          it: "/se a bi'zoɲɲo di a'juto 'altsi la 'mano/",
+        },
+      },
+      {
+        id: 50,
+        translations: {
+          es: 'No tire basura durante el recorrido.',
+          en: "Please don't litter during the ride.",
+          fr: 'Ne jetez pas de déchets pendant la balade.',
+          it: 'Non getti rifiuti durante il percorso.',
+        },
+        phonetics: {
+          es: 'No tire basura durante el recorrido.',
+          en: "/pliz dəʊnt 'lɪtə 'djʊərɪŋ ðə raɪd/",
+          fr: '/nə ʒəte pa də deʃɛ pɑ̃dɑ̃ la balad/',
+          it: "/non 'dʒetti ri'fjuti du'rante il per'korso/",
+        },
+      },
+      {
+        id: 51,
+        translations: {
+          es: 'Al terminar, deje la bicicleta en el mismo lugar.',
+          en: 'When you finish, leave the bike in the same place.',
+          fr: 'À la fin, laissez le vélo au même endroit.',
+          it: 'Alla fine, lasci la bicicletta nello stesso posto.',
+        },
+        phonetics: {
+          es: 'Al terminar, deje la bicicleta en el mismo lugar.',
+          en: "/wɛn ju 'fɪnɪʃ li:v ðə baɪk ɪn ðə seɪm pleɪs/",
+          fr: '/a la fɛ̃ lɛse lə velo o mɛm ɑ̃dʁwa/',
+          it: "/alla 'fine 'laʃʃi la bitʃi'kletta 'nello 'stesso 'posto/",
+        },
+      },
+      {
+        id: 52,
+        translations: {
+          es: 'Gracias por su recorrido, esperamos que lo haya disfrutado.',
+          en: 'Thank you for your ride, we hope you enjoyed it.',
+          fr: "Merci pour votre balade, nous espérons que vous l'avez appréciée.",
+          it: 'Grazie per il giro, speriamo che le sia piaciuto.',
+        },
+        phonetics: {
+          es: 'Gracias por su recorrido, esperamos que lo haya disfrutado.',
+          en: "/θæŋk ju fɔ: jɔ: raɪd wi həʊp ju ɪn'dʒɔɪd ɪt/",
+          fr: '/mɛrsi pur vɔtrə balad nu zɛspɛʁɔ̃ kə vu lave apʁesje/',
+          it: "/'grattsje per il 'dʒiro speri'amo ke le sia pja'tʃuto/",
+        },
+      },
+    ],
+  },
+  {
+    id: 'atv',
+    name: 'Cuatrimoto',
+    icon: Car,
     phrases: [],
   },
 ]

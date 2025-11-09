@@ -9,7 +9,7 @@ export function Phrasebook() {
   }
   return (
     <Tabs defaultValue={phraseData[0].id} className="w-full">
-      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-4 md:grid-cols-4">
+      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-3 md:grid-cols-5">
         {phraseData.map((category) => (
           <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-sm md:text-base">
             <category.icon className="h-5 w-5" />

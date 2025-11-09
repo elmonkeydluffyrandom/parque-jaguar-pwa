@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import type { Phrase } from '@/lib/phrases'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { FranceFlag, ItalyFlag, UKFlag } from './icons'
+import { FranceFlag, ItalyFlag, USFlag } from './icons'
 import { AudioPlayer } from './AudioPlayer'
 import { Button } from './ui/button'
 
@@ -14,9 +14,9 @@ type Props = {
 }
 
 const languageDetails: Record<Language, { name: string; flag: React.ComponentType; langCode: string }> = {
-  en: { name: 'English', flag: UKFlag, langCode: 'en-US' },
-  fr: { name: 'French', flag: FranceFlag, langCode: 'fr-FR' },
-  it: { name: 'Italian', flag: ItalyFlag, langCode: 'it-IT' },
+  en: { name: 'Inglés', flag: USFlag, langCode: 'en-US' },
+  fr: { name: 'Francés', flag: FranceFlag, langCode: 'fr-FR' },
+  it: { name: 'Italiano', flag: ItalyFlag, langCode: 'it-IT' },
 }
 
 export function PhraseCard({ phrase }: Props) {

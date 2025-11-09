@@ -1,6 +1,7 @@
 import { JaguarIcon } from './icons'
 import { HelpModal } from './HelpModal'
 import { MapModal } from './MapModal'
+import { ThemeToggle } from './ThemeToggle'
 
 export function Header() {
   return (
@@ -14,6 +15,7 @@ export function Header() {
       <div className="flex items-center gap-1 sm:gap-2">
         <MapModal />
         <HelpModal />
+        <ThemeToggle />
       </div>
     </header>
   )

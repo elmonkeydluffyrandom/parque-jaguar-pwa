@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { phraseData } from '@/lib/phrases'
 import { PhraseCard } from './PhraseCard'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 
 export function Phrasebook() {
   if (!phraseData || phraseData.length === 0) {
@@ -17,15 +18,38 @@ export function Phrasebook() {
         ))}
       </TabsList>
       {phraseData.map((category) => (
-        <TabsContent key={category.id} value={category.id}>
-          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {category.phrases.map((phrase) => (
-              <PhraseCard
-                key={phrase.id}
-                phrase={phrase}
-              />
-            ))}
-          </div>
+        <TabsContent key={category.id} value={category.id} className="mt-6">
+          {category.phrases && (
+             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {category.phrases.map((phrase) => (
+                <PhraseCard
+                  key={phrase.id}
+                  phrase={phrase}
+                />
+              ))}
+            </div>
+          )}
+          {category.subCategories && (
+            <Accordion type="single" collapsible className="w-full space-y-4">
+              {category.subCategories.map((subCategory) => (
+                <AccordionItem key={subCategory.id} value={subCategory.id} className="rounded-lg border bg-card px-4">
+                   <AccordionTrigger className="text-lg font-headline hover:no-underline">
+                    {subCategory.name}
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                      {subCategory.phrases.map((phrase) => (
+                        <PhraseCard
+                          key={phrase.id}
+                          phrase={phrase}
+                        />
+                      ))}
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          )}
         </TabsContent>
       ))}
     </Tabs>

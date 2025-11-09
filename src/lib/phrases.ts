@@ -17,11 +17,18 @@ export type Phrase = {
   }
 }
 
+export type PhraseSubCategory = {
+  id: string
+  name: string
+  phrases: Phrase[]
+}
+
 export type PhraseCategory = {
   id: string
   name: string
   icon: LucideIcon
-  phrases: Phrase[]
+  phrases?: Phrase[]
+  subCategories?: PhraseSubCategory[]
 }
 
 export const phraseData: PhraseCategory[] = [
@@ -201,36 +208,97 @@ export const phraseData: PhraseCategory[] = [
     id: 'zip-lining',
     name: 'Tirolesa',
     icon: Mountain,
-    phrases: [
+    subCategories: [
       {
-        id: 3,
-        translations: {
-          es: 'Por favor, póngase el casco.',
-          en: 'Please put on your helmet.',
-          fr: 'Veuillez mettre votre casque.',
-          it: 'Per favore, indossa il casco.',
-        },
-        phonetics: {
-          es: '/poɾ faˈβoɾ, ˈponɡase el ˈkasko./',
-          en: '/pliːz pʊt ɒn jɔːr ˈhɛlmɪt./',
-          fr: '/vœje mɛtʁ vɔtʁ kask./',
-          it: '/per faˈvoːre, inˈdɔssa il ˈkasko./',
-        },
+        id: 'equipment-area',
+        name: 'Área de Equipamiento',
+        phrases: [
+          {
+            id: 18,
+            translations: {
+              es: 'Voy a colocarle el arnés, ¿está bien?',
+              en: "I'm going to put your harness on, is that okay?",
+              fr: 'Je vais vous mettre le harnais, ça vous va ?',
+              it: "Le metto l'imbracatura, va bene?",
+            },
+            phonetics: {
+              es: 'Voy a colocarle el arnés, ¿está bien?',
+              en: "/aɪm 'gəʊɪŋ tə pʊt jɔː 'hɑːnɪs ɒn ɪz ðæt əʊ'keɪ/",
+              fr: '/ʒə ve vu mɛtʁ lə aʁnɛ sa vu va/',
+              it: "/le 'metto limbraka'tura va 'be:ne/",
+            },
+          },
+          {
+            id: 19,
+            translations: {
+              es: 'Permítame ajustar el casco, por favor.',
+              en: 'Let me adjust your helmet, please.',
+              fr: "Laissez-moi ajuster votre casque, s'il vous plaît.",
+              it: 'Mi permetta di sistemarle il casco, per favore.',
+            },
+            phonetics: {
+              es: 'Permítame ajustar el casco, por favor.',
+              en: "/lɛt mi ə'dʒʌst jɔː 'hɛlmɪt pliːz/",
+              fr: '/lɛse mwa aʒyste vɔtʁ kask sil vu plɛ/',
+              it: "/mi per'metta di siste'marle il 'kasko per fa'vore/",
+            },
+          },
+          {
+            id: 20,
+            translations: {
+              es: 'Asegúrese de que las correas estén bien ajustadas.',
+              en: 'Make sure the straps are tight.',
+              fr: 'Assurez-vous que les sangles soient bien serrées.',
+              it: 'Si assicuri che le cinghie siano ben strette.',
+            },
+            phonetics: {
+              es: 'Asegúrese de que las correas estén bien ajustadas.',
+              en: "/meɪk ʃʊə ðə stræps ɑː taɪt/",
+              fr: '/asyre vu kə le sɑ̃gl swa bjɛ̃ seʁe/',
+              it: "/si as'sikuri ke le 'tʃingje 'sjano ben 'strette/",
+            },
+          },
+          {
+            id: 21,
+            translations: {
+              es: 'No se quite el casco ni el arnés hasta que se lo indiquemos.',
+              en: "Don't remove your helmet or harness until we tell you.",
+              fr: "Ne retirez pas votre casque ni votre harnais avant qu'on vous le dise.",
+              it: "Non tolga il casco né l'imbracatura finché non glielo diciamo.",
+            },
+            phonetics: {
+              es: 'No se quite el casco ni el arnés hasta que se lo indiquemos.',
+              en: "/dəʊnt rɪ'muːv jɔː 'hɛlmɪt ɔː 'hɑːnɪs ʌn'tɪl wi tɛl ju/",
+              fr: '/nə ʁətiʁe pa vɔtʁ kask ni vɔtʁ aʁnɛ avɑ̃ kɔ̃ vu lə diz/',
+              it: "/non 'tɔlga il 'kasko ne limbraka'tura fin'ke non 'ʎelo di'tʃamo/",
+            },
+          },
+          {
+            id: 22,
+            translations: {
+              es: 'Este equipo es por su seguridad.',
+              en: 'This equipment is for your safety.',
+              fr: 'Cet équipement est pour votre sécurité.',
+              it: "Quest'attrezzatura è per la sua sicurezza.",
+            },
+            phonetics: {
+              es: 'Este equipo es por su seguridad.',
+              en: "/ðɪs ɪ'kwɪpmənt ɪz fɔː jɔː 'seɪfti/",
+              fr: '/sɛt ekipmɑ̃ ɛ puʁ vɔtʁ sekyʁite/',
+              it: "/'kwesta ttrɛt:sa'tu:ra ɛ per la 'swa siku'ret'tsa/",
+            },
+          },
+        ],
       },
       {
-        id: 4,
-        translations: {
-          es: '¿Estás listo para la aventura?',
-          en: 'Are you ready for the adventure?',
-          fr: 'Êtes-vous prêt pour l’aventure ?',
-          it: 'Sei pronto per l’avventura?',
-        },
-        phonetics: {
-          es: '/esˈtas ˈlisto ˈpaɾa la aβenˈtuɾa?/',
-          en: '/ɑːr ju ˈrɛdi fɔːr ði ədˈvɛnʧər?/',
-          fr: '/ɛt vu pʁɛ puʁ lavɑ̃tyʁ?/',
-          it: '/sɛi̯ ˈpronto per lavvenˈtuːra?/',
-        },
+        id: 'launch-platform',
+        name: 'Plataforma de Lanzamiento',
+        phrases: [],
+      },
+      {
+        id: 'arrival-platform',
+        name: 'Plataforma de Llegada',
+        phrases: [],
       },
     ],
   },
@@ -271,7 +339,7 @@ export const phraseData: PhraseCategory[] = [
       },
     ],
   },
-    {
+  {
     id: 'trails',
     name: 'Senderos',
     icon: Footprints,

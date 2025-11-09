@@ -28,8 +28,20 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'storage.googleapis.com',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
+  experimental: {
+    // This is required to allow the Next.js dev server to be accessible from the Firebase Studio preview.
+    allowedDevOrigins: [
+        "https://*.cluster-c72u3gwiofapkvxrcwjq5zllcu.cloudworkstations.dev"
+    ]
+  }
 };
 
 export default nextConfig;

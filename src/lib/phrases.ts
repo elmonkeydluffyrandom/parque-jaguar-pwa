@@ -1,6 +1,6 @@
 
 import type { LucideIcon } from 'lucide-react'
-import { Bike, Car, ConciergeBell, Mountain, Sailboat, Coffee, Theater, Restroom } from 'lucide-react'
+import { Bike, Car, ConciergeBell, Mountain, Sailboat, Coffee, Theater, Bath } from 'lucide-react'
 
 export type Phrase = {
   id: number
@@ -95,7 +95,7 @@ export const phraseData: PhraseCategory[] = [
           es: 'En el parque Jaguar contamos con actividades como la tirolesa, cuatrimotos, bicicletas y kayak.',
           en: "/ət 'dʒægwɑ: 'pɑ:k wi 'ɒfə æk'tɪvətiz sʌtʃ æz ðə zɪp laɪn 'eɪti:'vi:z 'baɪsɪklz ənd 'kaɪækɪŋ/",
           fr: '/o paʁk ʒagwaʁ nu pʁopozɔ̃ dez aktivite kɔm la tiʁɔljɛn le kwad lə velo e lə kajak/',
-          it: "/al 'parkɔ ʒa'gwar of'friamo attivi'ta 'kome la tele'ferika i 'kwad le bitʃi'lette e il ka'jak/",
+          it: "/al 'parkɔ ʒa'gwar of'friamo attivi'ta 'kome la tele'ferika i 'kwad le bitʃi'klette e il ka'jak/",
         },
       },
       {
@@ -926,7 +926,7 @@ export const phraseData: PhraseCategory[] = [
   {
     id: 'restrooms',
     name: 'Baños',
-    icon: Restroom,
+    icon: Bath,
     phrases: [],
   },
 ]

@@ -75,6 +75,81 @@ export const phraseData: PhraseCategory[] = [
           it: "/mi per'metta di spje'garle le at:ivi'ta disponi'bili/",
         },
       },
+      {
+        id: 10,
+        translations: {
+          en: 'At Jaguar Park, we offer activities such as the zip line, ATVs, bicycles, and kayaking.',
+          es: 'En el parque Jaguar contamos con actividades como la tirolesa, cuatrimotos, bicicletas y kayak.',
+          fr: 'Au Parc Jaguar, nous proposons des activités comme la tyrolienne, les quads, le vélo et le kayak.',
+          it: 'Al Parco Jaguar offriamo attività come la teleferica, i quad, le biciclette e il kayak.',
+        },
+        phonetics: {
+          en: "/ət 'dʒægwɑ: 'pɑ:k wi 'ɒfə æk'tɪvətiz sʌtʃ æz ðə zɪp laɪn 'eɪti:'vi:z 'baɪsɪklz ənd 'kaɪækɪŋ/",
+          es: 'En el parque Jaguar contamos con actividades como la tirolesa, cuatrimotos, bicicletas y kayak.',
+          fr: '/o paʁk ʒagwaʁ nu pʁopozɔ̃ dez aktivite kɔm la tiʁɔljɛn le kwad lə velo e lə kajak/',
+          it: "/al 'parkɔ ʒa'gwar of'friamo attivi'ta 'kome la tele'ferika i 'kwad le bitʃi'lette e il ka'jak/",
+        },
+      },
+      {
+        id: 11,
+        translations: {
+          en: 'The package costs 250 Mexican pesos, or 13 dollars.',
+          es: 'El paquete tiene un costo de 250 pesos mexicanos / 13 dólares.',
+          fr: 'Le forfait coûte 250 pesos mexicains, soit 13 dollars.',
+          it: 'Il pacchetto costa 250 pesos messicani, ovvero 13 dollari.',
+        },
+        phonetics: {
+          en: "/ðə 'pækɪdʒ kɒsts tu: 'hʌndrəd 'fɪfti 'meksɪkən 'peɪsəʊz ɔ: θɜ:'ti:n 'dɒləz/",
+          es: 'El paquete tiene un costo de 250 pesos mexicanos / 13 dólares.',
+          fr: '/lə fɔʁfɛ kut dø sɑ̃ sɛ̃kɑ̃t peso mɛksikɛ̃ swa tʁɛz dɔlaʁ/',
+          it: "/il pak'ketto 'kɔsta du'tʃento 'tʃinkwan'ta 'pezos messi'kani ov'vero 'tredze 'dɔllari/",
+        },
+      },
+      {
+        id: 12,
+        translations: {
+          en: 'We also have a café called Chaka.',
+          es: 'También contamos con una cafetería llamada Chaka.',
+          fr: 'Nous avons aussi un café appelé Chaka.',
+          it: 'Abbiamo anche un bar chiamato Chaka.',
+        },
+        phonetics: {
+          en: "/wi 'ɔ:lsəʊ hæv ə kæ'feɪ kɔ:ld 'tʃɑ:kə/",
+          es: 'También contamos con una cafetería llamada Chaka.',
+          fr: '/nuz‿avɔ̃ osi ɛ̃ kafe apəle ʃaka/',
+          it: "/ab'biamo 'anke un bar kia'mato 'ʃaka/",
+        },
+      },
+      {
+        id: 13,
+        translations: {
+          en: "Please sign here before starting. It's a liability waiver; you can read it without any problem.",
+          es: 'Por favor, firme aquí antes de comenzar, es una carta responsable, puede leerla sin problema.',
+          fr: "Signez ici avant de commencer. C'est une décharge de responsabilité, vous pouvez la lire sans problème.",
+          it: 'Firmi qui prima di iniziare. È una liberatoria di responsabilità, può leggerla senza problemi.',
+        },
+        phonetics: {
+          en: "/pli:z saɪn hɪə bɪ'fɔ: 'stɑ:tɪŋ ɪts ə laɪə'bɪləti 'weɪvə ju kən ri:d ɪt wɪ'ðaʊt 'ɛni 'prɒbləm/",
+          es: 'Por favor, firme aquí antes de comenzar, es una carta responsable, puede leerla sin problema.',
+          fr: '/siɲe isi avɑ̃ də kɔmɑ̃se sɛt yn deʃaʁʒ də rɛspɔ̃sabilite vu puve la liʁ sɑ̃ pʁɔblɛm/',
+          it: "/'firmi kwi 'prima di init'tsjare ɛ una liberato'rja di responsabili'ta pwɔ 'ledʒerla 'sentsa pro'blɛmi/",
+        },
+      },
+      {
+        id: 14,
+        translations: {
+          en: 'There are two restrooms; one is on the right and the other on the left.',
+          es: 'Hay dos baños, están del lado derecho y del lado izquierdo.',
+          fr: "Il y a deux toilettes, l'une à droite et l'autre à gauche.",
+          it: 'Ci sono due bagni, uno a destra e uno a sinistra.',
+        },
+        phonetics: {
+          en: "/ðeər ɑ: tu: 'restru:mz wʌn ɪz ɒn ðə raɪt ənd ði 'ʌðə ɒn ðə left/",
+          es: 'Hay dos baños, están del lado derecho y del lado izquierdo.',
+          fr: '/il ja dø twalɛt lyn a dʁwat e lotʁ a goʃ/',
+          it: "/tʃi 'sono 'dwe 'baɲɲi 'uno a 'dɛstra e 'uno a si'nistra/",
+        },
+      },
     ],
   },
   {

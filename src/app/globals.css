@@ -22,7 +22,7 @@
     --muted: 122 25% 90%;
     --muted-foreground: 0 0% 45.1%;
 
-    --accent: 55 68% 30%; /* yellow-green #827717 */
+    --accent: 207 72% 63%; /* light blue #4299e1 */
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
@@ -70,7 +70,7 @@
     --muted: 120 15% 18%;
     --muted-foreground: 0 0% 63.9%;
 
-    --accent: 55 68% 45%;
+    --accent: 207 72% 63%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;

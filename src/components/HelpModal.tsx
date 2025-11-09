@@ -13,7 +13,7 @@ export function HelpModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="bg-accent/80 hover:bg-accent text-accent-foreground hover:text-accent-foreground">
+        <Button variant="outline" className="border-accent/80 bg-accent/90 text-accent-foreground hover:bg-accent hover:text-accent-foreground">
           <HelpCircle className="h-5 w-5" />
           <span className="hidden sm:inline">Ayuda</span>
         </Button>

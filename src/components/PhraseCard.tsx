@@ -78,7 +78,7 @@ export function PhraseCard({ phrase, isPracticeMode }: Props) {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {(['es', 'fr', 'it'] as const).map((lang, index) => {
+          {(['en', 'es', 'fr', 'it'] as const).map((lang, index) => {
             const Flag = languageDetails[lang].flag
             return (
               <div key={lang}>

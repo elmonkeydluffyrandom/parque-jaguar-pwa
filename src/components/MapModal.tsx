@@ -1,0 +1,36 @@
+import { Button } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import { MapIcon } from 'lucide-react'
+import { Map } from './Map'
+
+
+export function MapModal() {
+  return (
+    <Dialog>
+      <DialogTrigger asChild>
+        <Button variant="outline">
+          <MapIcon className="h-5 w-5" />
+          <span>Mapa</span>
+        </Button>
+      </DialogTrigger>
+      <DialogContent className="max-w-3xl">
+        <DialogHeader>
+          <DialogTitle>Mapa del Parque Jaguar</DialogTitle>
+          <DialogDescription>
+            Haz clic en los íconos para ver la ubicación de cada actividad.
+          </DialogDescription>
+        </DialogHeader>
+        <div className="mt-4">
+            <Map />
+        </div>
+      </DialogContent>
+    </Dialog>
+  )
+}

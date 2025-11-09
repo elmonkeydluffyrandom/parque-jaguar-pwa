@@ -1,5 +1,6 @@
 import { JaguarIcon } from './icons'
 import { HelpModal } from './HelpModal'
+import { MapModal } from './MapModal'
 
 export function Header() {
   return (
@@ -10,7 +11,10 @@ export function Header() {
           Parque Jaguar
         </h1>
       </div>
-      <HelpModal />
+      <div className="flex items-center gap-2">
+        <MapModal />
+        <HelpModal />
+      </div>
     </header>
   )
 }

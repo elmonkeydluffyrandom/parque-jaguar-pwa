@@ -23,8 +23,8 @@ const languageDetails: Record<Language, { name: string; flag: React.ComponentTyp
 }
 
 export function PhraseCard({ phrase, isPracticeMode }: Props) {
-  const [activeLang, setActiveLang] = useState<Language>('en')
-  const languages: Language[] = ['en', 'es', 'fr', 'it']
+  const [activeLang, setActiveLang] = useState<Language>('es')
+  const languages: Language[] = ['es', 'en', 'fr', 'it']
 
   if (isPracticeMode) {
     const ActiveFlag = languageDetails[activeLang].flag
@@ -78,7 +78,7 @@ export function PhraseCard({ phrase, isPracticeMode }: Props) {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {(['en', 'es', 'fr', 'it'] as const).map((lang, index) => {
+          {(['es', 'en', 'fr', 'it'] as const).map((lang, index) => {
             const Flag = languageDetails[lang].flag
             return (
               <div key={lang}>

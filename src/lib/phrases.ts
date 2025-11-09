@@ -293,7 +293,83 @@ export const phraseData: PhraseCategory[] = [
       {
         id: 'launch-platform',
         name: 'Plataforma de Lanzamiento',
-        phrases: [],
+        phrases: [
+          {
+            id: 23,
+            translations: {
+              es: 'Espere su turno antes de lanzarse.',
+              en: 'Please wait for your turn before you go.',
+              fr: 'Attendez votre tour avant de partir.',
+              it: 'Attenda il suo turno prima di lanciarsi.',
+            },
+            phonetics: {
+              es: 'Espere su turno antes de lanzarse.',
+              en: "/pli:z weɪt fə jɔ: tɜ:n bɪ'fɔ: ju gəʊ/",
+              fr: '/atɑ̃de votʁ tuʁ avɑ̃ də paʁtiʁ/',
+              it: "/at'tenda il 'swo 'turno 'prima di lan'tʃarsi/",
+            },
+          },
+          {
+            id: 24,
+            translations: {
+              es: 'No salte, solo déjese ir cuando se lo indique.',
+              en: "Don't jump; just let yourself go when I tell you.",
+              fr: 'Ne sautez pas, laissez-vous aller quand je vous le dis.',
+              it: 'Non salti, si lasci andare quando glielo dico.',
+            },
+            phonetics: {
+              es: 'No salte, solo déjese ir cuando se lo indique.',
+              en: "/dəʊnt dʒʌmp dʒʌst let jɔ:'sɛlf gəʊ wen aɪ tel ju/",
+              fr: '/nə sote pa lese vu ale kɑ̃ ʒə vu lə di/',
+              it: "/non 'salti si 'laʃʃi an'dare 'kwando 'ʎelo 'diko/",
+            },
+          },
+          {
+            id: 25,
+            translations: {
+              es: 'Si es su primera vez, no se preocupe, es muy seguro.',
+              en: "If it's your first time, don't worry, it's very safe.",
+              fr: "Si c'est votre première fois, ne vous inquiétez pas, c'est très sûr.",
+              it: 'Se è la sua prima volta, non si preoccupi, è molto sicuro.',
+            },
+            phonetics: {
+              es: 'Si es su primera vez, no se preocupe, es muy seguro.',
+              en: "/ɪf ɪts jɔ: fɜ:st taɪm dəʊnt 'wʌri ɪts 'veri seɪf/",
+              fr: '/si sɛ vɔtʁ pʁəmjɛʁ fwa nə vuz ɛ̃kjete pa sɛ tʁɛ syʁ/',
+              it: "/se ɛ la 'swa 'prima 'vɔlta non si preok'kupi ɛ 'molto si'kuro/",
+            },
+          },
+          {
+            id: 26,
+            translations: {
+              es: 'Mantenga las piernas juntas durante el vuelo.',
+              en: 'Keep your legs together during the ride.',
+              fr: 'Gardez les jambes serrées pendant le vol.',
+              it: 'Tenga le gambe unite durante il volo.',
+            },
+            phonetics: {
+              es: 'Mantenga las piernas juntas durante el vuelo.',
+              en: "/ki:p jɔ: legz tə'geðə 'djʊərɪŋ ðə raɪd/",
+              fr: '/gaʁde le ʒɑ̃b seʁe pɑ̃dɑ̃ lə vɔl/',
+              it: "/'tenga le 'gambe u'nite du'rante il 'volo/",
+            },
+          },
+          {
+            id: 27,
+            translations: {
+              es: '¡Buen vuelo y disfrute la vista!',
+              en: 'Have a good flight and enjoy the view!',
+              fr: 'Bon vol et profitez de la vue !',
+              it: 'Buon volo e si goda la vista!',
+            },
+            phonetics: {
+              es: '¡Buen vuelo y disfrute la vista!',
+              en: "/hæv ə gʊd flaɪt ənd ɪn'dʒɔɪ ðə vju:/",
+              fr: '/bɔ̃ vɔl e pʁɔfite də la vy/',
+              it: "/'bwɔn 'volo e si 'gɔda la 'vista/",
+            },
+          },
+        ],
       },
       {
         id: 'arrival-platform',

@@ -13,8 +13,9 @@ export function HelpModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="ghost" size="icon" aria-label="Abrir ayuda">
-          <HelpCircle className="h-6 w-6 text-muted-foreground transition-colors hover:text-accent-foreground" />
+        <Button variant="outline" className="bg-accent/80 hover:bg-accent text-accent-foreground hover:text-accent-foreground">
+          <HelpCircle className="h-5 w-5" />
+          <span>Ayuda</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-md sm:max-w-lg">

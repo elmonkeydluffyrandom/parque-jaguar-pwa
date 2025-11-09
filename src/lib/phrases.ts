@@ -203,6 +203,81 @@ export const phraseData: PhraseCategory[] = [
           it: "/se a bi'zoɲɲo di a'juto sa'remo fe'litʃi di ajut'tarla/",
         },
       },
+      {
+        id: 32,
+        translations: {
+          es: '¿Gusta tomarse una foto del recuerdo? Tiene un costo de 100 pesos mexicanos.',
+          en: 'Would you like a souvenir photo? It costs 100 Mexican pesos.',
+          fr: 'Voulez-vous une photo souvenir ? Ça coûte 100 pesos mexicains.',
+          it: 'Vuole una foto ricordo? Costa 100 pesos messicani.',
+        },
+        phonetics: {
+          es: '¿Gusta tomarse una foto del recuerdo? Tiene un costo de 100 pesos mexicanos.',
+          en: "/wʊd ju laɪk ə ˌsuːvə'nɪə 'foʊtoʊ ɪt kɒsts wʌn 'hʌndrəd 'mɛksɪkən 'peɪsoʊz/",
+          fr: "/vule vu yn foto suvniʁ sa kut sɑ̃ pezo mɛksikɛ̃/",
+          it: "/'vwɔle 'una 'fɔto ri'kɔrdo 'kɔsta 'tʃɛnto 'pesos messi'kani/",
+        },
+      },
+      {
+        id: 33,
+        translations: {
+          es: 'No olvide seguirnos en nuestras redes sociales.',
+          en: 'Don’t forget to follow us on our social media.',
+          fr: 'N’oubliez pas de nous suivre sur nos réseaux sociaux.',
+          it: 'Non dimentichi di seguirci sui nostri social media.',
+        },
+        phonetics: {
+          es: 'No olvide seguirnos en nuestras redes sociales.',
+          en: "/doʊnt fər'gɛt tə 'fɒloʊ əs ɒn 'aʊə 'soʊʃəl 'miːdiə/",
+          fr: "/nublje pa də nu sɥivʁ syʁ no ʁezo sosjo/",
+          it: "/non dimen'tiki di se'gwirtʃi suj 'nɔstri 'sɔtʃal 'midja/",
+        },
+      },
+      {
+        id: 34,
+        translations: {
+          es: 'Puede encontrarnos en Facebook e Instagram como Parque Jaguar.',
+          en: 'You can find us on Facebook and Instagram as Parque Jaguar.',
+          fr: 'Vous pouvez nous trouver sur Facebook et Instagram sous le nom de Parque Jaguar.',
+          it: 'Ci può trovare su Facebook e Instagram come Parque Jaguar.',
+        },
+        phonetics: {
+          es: 'Puede encontrarnos en Facebook e Instagram como Parque Jaguar.',
+          en: "/ju kæn faɪnd əs ɒn 'feɪsbʊk ənd 'ɪnstəgræm æz 'pɑːrkeɪ 'hæɡwɑːr/",
+          fr: "/vu puve nu tʁuve syʁ fejsbuk e ɛ̃stagʁam su lə nɔ̃ də paʁkə ʒagwaʁ/",
+          it: "/tʃi pwɔ tro'vare su 'fejsbuk e 'instagram 'kome 'parke ja'gwar/",
+        },
+      },
+      {
+        id: 35,
+        translations: {
+          es: '¿Desea agregar propina?',
+          en: 'Would you like to add a tip?',
+          fr: 'Voulez-vous ajouter un pourboire ?',
+          it: 'Vuole aggiungere una mancia?',
+        },
+        phonetics: {
+          es: '¿Desea agregar propina?',
+          en: "/wʊd ju laɪk tu æd ə tɪp/",
+          fr: "/vule vu aʒute ɛ̃ puʁbwaʁ/",
+          it: "/'vwɔle ad'dʒundʒere 'una 'mantʃa/",
+        },
+      },
+      {
+        id: 36,
+        translations: {
+          es: 'Aceptamos pagos en efectivo o con tarjeta.',
+          en: 'We accept cash or card payments.',
+          fr: 'Nous acceptons les paiements en espèces ou par carte.',
+          it: 'Accettiamo pagamenti in contanti o con carta.',
+        },
+        phonetics: {
+          es: 'Aceptamos pagos en efectivo o con tarjeta.',
+          en: "/wi ək'sɛpt kæʃ ɔː kɑːd 'peɪmənts/",
+          fr: "/nu zakseptɔ̃ le pɛmɑ̃ ɑ̃n‿ɛspɛs u paʁ kaʁt/",
+          it: "/attʃet'tjamo paga'menti in kon'tanti o kon 'karta/",
+        },
+      },
     ],
   },
   {
@@ -444,7 +519,128 @@ export const phraseData: PhraseCategory[] = [
     id: 'kayak',
     name: 'Kayak',
     icon: Sailboat,
-    phrases: [],
+    phrases: [
+        {
+          id: 37,
+          translations: {
+            es: 'Use el chaleco salvavidas todo el tiempo.',
+            en: 'Please wear your life jacket at all times.',
+            fr: 'Portez votre gilet de sauvetage en tout temps.',
+            it: 'Indossi sempre il giubbotto di salvataggio.',
+          },
+          phonetics: {
+            es: 'Use el chaleco salvavidas todo el tiempo.',
+            en: "/pli:z weə jɔ: laif 'dʒækɪt æt ɔ:l taɪmz/",
+            fr: '/pɔʁte vɔtʁ ʒilɛ də sovtaʒ ɑ̃ tu tɑ̃/',
+            it: "/in'dɔssi 'sɛmpre il dʒub'bɔtto di salva'tadʒdʒo/",
+          },
+        },
+        {
+          id: 38,
+          translations: {
+            es: 'No se aleje de la orilla.',
+            en: "Don't go far from the shore.",
+            fr: "Ne vous éloignez pas du rivage.",
+            it: 'Non si allontani dalla riva.',
+          },
+          phonetics: {
+            es: 'No se aleje de la orilla.',
+            en: "/dəʊnt gəʊ fɑ: frɒm ðə ʃɔ:/",
+            fr: "/nə vuz‿elwaɲe pa dy ʁivaʒ/",
+            it: "/non si allon'tani dalla 'riva/",
+          },
+        },
+        {
+          id: 39,
+          translations: {
+            es: 'Reme despacio y con ambos brazos.',
+            en: 'Paddle slowly and use both arms.',
+            fr: 'Pagayez lentement et utilisez les deux bras.',
+            it: 'Remi lentamente e usi entrambe le braccia.',
+          },
+          phonetics: {
+            es: 'Reme despacio y con ambos brazos.',
+            en: "/'pædl 'sləʊli ənd ju:z bəʊθ ɑ:mz/",
+            fr: '/pagaje lɑ̃tmɑ̃ e ytilize le dø bʁa/',
+            it: "/'remi lenta'mente e 'uzi en'trambe le 'brattʃa/",
+          },
+        },
+        {
+          id: 40,
+          translations: {
+            es: 'Mantenga distancia con los otros kayaks.',
+            en: 'Keep a safe distance from other kayaks.',
+            fr: 'Gardez une distance de sécurité avec les autres kayaks.',
+            it: 'Mantenga la distanza di sicurezza dagli altri kayak.',
+          },
+          phonetics: {
+            es: 'Mantenga distancia con los otros kayaks.',
+            en: "/ki:p ə seɪf 'dɪstəns frəm 'ʌðə 'kaiæks/",
+            fr: '/gaʁde yn distɑ̃s də sekyʁite avɛk lez‿otʁə kajak/',
+            it: "/man'tenga la di'stantsa di siku'ret'tsa daʎʎi 'altri 'kaiak/",
+          },
+        },
+        {
+          id: 41,
+          translations: {
+            es: 'Si necesita ayuda, levante el remo.',
+            en: 'If you need help, raise your paddle.',
+            fr: "Si vous avez besoin d'aide, levez votre pagaie.",
+            it: 'Se ha bisogno di aiuto, alzi la pagaia.',
+          },
+          phonetics: {
+            es: 'Si necesita ayuda, levante el remo.',
+            en: "/ɪf ju ni:d hɛlp reɪz jɔ: 'pædl/",
+            fr: "/si vuz‿ave bəzwɛ̃ dɛd ləve vɔtʁ pagɛ/",
+            it: "/se a bi'zoɲɲo di a'juto 'altsi la pa'ga:ja/",
+          },
+        },
+        {
+          id: 42,
+          translations: {
+            es: 'Evite chocar con otros kayaks.',
+            en: 'Avoid bumping into other kayaks.',
+            fr: 'Évitez de heurter les autres kayaks.',
+            it: 'Eviti di urtare altri kayak.',
+          },
+          phonetics: {
+            es: 'Evite chocar con otros kayaks.',
+            en: "/ə'vɔɪd 'bʌmpɪŋ 'ɪntu 'ʌðə 'kaiæks/",
+            fr: '/evite də œʁte lez‿otʁə kajak/',
+            it: "/'eviti di ur'tare 'altri 'kaiak/",
+          },
+        },
+        {
+          id: 43,
+          translations: {
+            es: 'A su regreso, deje el kayak en el mismo lugar.',
+            en: 'When you return, leave the kayak in the same place.',
+            fr: 'À votre retour, laissez le kayak au même endroit.',
+            it: 'Al ritorno, lasci il kayak nello stesso posto.',
+          },
+          phonetics: {
+            es: 'A su regreso, deje el kayak en el mismo lugar.',
+            en: "/wɛn ju rɪ'tɜ:n li:v ðə 'kaiæk ɪn ðə seɪm pleɪs/",
+            fr: '/a vɔtʁ ʁətuʁ lɛse lə kajak o mɛm ɑ̃dʁwa/',
+            it: "/al ri'torno 'laʃʃi il 'kaiak 'nello 'stesso 'posto/",
+          },
+        },
+        {
+          id: 44,
+          translations: {
+            es: 'Gracias por remar con nosotros.',
+            en: 'Thank you for paddling with us.',
+            fr: "Merci d'avoir pagayé avec nous.",
+            it: 'Grazie per aver remato con noi.',
+          },
+          phonetics: {
+            es: 'Gracias por remar con nosotros.',
+            en: "/θæŋk ju fɔ: 'pædlɪŋ wɪð ʌs/",
+            fr: "/mɛʁsi davwaʁ pagaje avɛk nu/",
+            it: "/'grattsje per a'ver re'mato kon 'noi/",
+          },
+        },
+      ],
   },
   {
     id: 'bicycle',

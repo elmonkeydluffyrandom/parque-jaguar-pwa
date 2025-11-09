@@ -11,7 +11,7 @@ export function Phrasebook() {
     <Tabs defaultValue={phraseData[0].id} className="w-full">
       <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-3 md:grid-cols-5">
         {phraseData.map((category) => (
-          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-sm md:text-base">
+          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-xs sm:text-sm md:text-base">
             <category.icon className="h-5 w-5" />
             <span className="font-headline">{category.name}</span>
           </TabsTrigger>
@@ -20,7 +20,7 @@ export function Phrasebook() {
       {phraseData.map((category) => (
         <TabsContent key={category.id} value={category.id} className="mt-6">
           {category.phrases && (
-             <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
               {category.phrases.map((phrase) => (
                 <PhraseCard
                   key={phrase.id}
@@ -37,7 +37,7 @@ export function Phrasebook() {
                     {subCategory.name}
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                    <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-3">
                       {subCategory.phrases.map((phrase) => (
                         <PhraseCard
                           key={phrase.id}

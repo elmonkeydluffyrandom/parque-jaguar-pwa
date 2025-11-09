@@ -17,10 +17,10 @@ export function MapModal() {
       <DialogTrigger asChild>
         <Button variant="outline">
           <MapIcon className="h-5 w-5" />
-          <span>Mapa</span>
+          <span className="hidden sm:inline">Mapa</span>
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-3xl">
+      <DialogContent className="max-w-3xl w-full max-h-[90vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>Mapa del Parque Jaguar</DialogTitle>
           <DialogDescription>

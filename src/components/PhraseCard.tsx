@@ -3,33 +3,32 @@
 import { useState } from 'react'
 import type { Phrase } from '@/lib/phrases'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { FranceFlag, ItalyFlag, SpainFlag, UKFlag } from './icons'
+import { FranceFlag, ItalyFlag, UKFlag } from './icons'
 import { AudioPlayer } from './AudioPlayer'
 import { Button } from './ui/button'
 
-type Language = 'es' | 'en' | 'fr' | 'it'
+type Language = 'en' | 'fr' | 'it'
 
 type Props = {
   phrase: Phrase
 }
 
 const languageDetails: Record<Language, { name: string; flag: React.ComponentType; langCode: string }> = {
-  es: { name: 'Spanish', flag: SpainFlag, langCode: 'es-ES' },
   en: { name: 'English', flag: UKFlag, langCode: 'en-US' },
   fr: { name: 'French', flag: FranceFlag, langCode: 'fr-FR' },
   it: { name: 'Italian', flag: ItalyFlag, langCode: 'it-IT' },
 }
 
 export function PhraseCard({ phrase }: Props) {
-  const [activeLang, setActiveLang] = useState<Language>('es')
-  const languages: Language[] = ['es', 'en', 'fr', 'it']
+  const [activeLang, setActiveLang] = useState<Language>('en')
+  const languages: Language[] = ['en', 'fr', 'it']
 
   const ActiveFlag = languageDetails[activeLang].flag
 
   return (
     <Card className="flex flex-col">
       <CardHeader>
-        <CardTitle className="text-lg font-headline">{phrase.translations['en']}</CardTitle>
+        <CardTitle className="text-lg font-headline">{phrase.translations['es']}</CardTitle>
       </CardHeader>
       <CardContent className="flex flex-1 flex-col justify-between">
         <div>
@@ -43,15 +42,13 @@ export function PhraseCard({ phrase }: Props) {
                 </p>
               </div>
             </div>
-            {activeLang !== 'es' && (
-              <AudioPlayer
-                text={phrase.translations[activeLang]}
-                lang={languageDetails[activeLang].langCode}
-              />
-            )}
+            <AudioPlayer
+              text={phrase.translations[activeLang]}
+              lang={languageDetails[activeLang].langCode}
+            />
           </div>
         </div>
-        <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
+        <div className="mt-4 grid grid-cols-3 gap-2">
           {languages.map((lang) => {
             const LangFlag = languageDetails[lang].flag;
             return (

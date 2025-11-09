@@ -13,11 +13,11 @@ type Props = {
   isPracticeMode: boolean
 }
 
-type Language = 'en' | 'es' | 'fr' | 'it'
+type Language = 'es' | 'en' | 'fr' | 'it'
 
 const languageDetails: Record<Language, { name: string; flag: React.ComponentType; langCode: string }> = {
-  en: { name: 'English', flag: UKFlag, langCode: 'en-US' },
   es: { name: 'Spanish', flag: SpainFlag, langCode: 'es-ES' },
+  en: { name: 'English', flag: UKFlag, langCode: 'en-US' },
   fr: { name: 'French', flag: FranceFlag, langCode: 'fr-FR' },
   it: { name: 'Italian', flag: ItalyFlag, langCode: 'it-IT' },
 }
@@ -78,7 +78,7 @@ export function PhraseCard({ phrase, isPracticeMode }: Props) {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          {(['es', 'en', 'fr', 'it'] as const).map((lang, index) => {
+          {languages.map((lang, index) => {
             const Flag = languageDetails[lang].flag
             return (
               <div key={lang}>

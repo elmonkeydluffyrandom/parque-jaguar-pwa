@@ -54,7 +54,13 @@ const markerPositions: Record<string, { top: string; left: string }> = {
 }
 
 export function Map() {
-  const mapImage = placeholderImages.parkMap
+  const mapImage = {
+    src: "/map.png",
+    alt: "Un mapa aéreo del Parque Jaguar.",
+    width: 1896,
+    height: 632,
+    hint: "Haz clic en los íconos para ver la ubicación de cada actividad."
+  };
 
   return (
     <div className="relative w-full overflow-hidden rounded-lg border">

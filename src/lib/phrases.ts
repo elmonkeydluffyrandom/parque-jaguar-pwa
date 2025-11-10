@@ -2,6 +2,16 @@
 import type { LucideIcon } from 'lucide-react'
 import { Bike, Car, ConciergeBell, Mountain, Sailboat, Coffee, Theater, Bath } from 'lucide-react'
 
+export type TouristReply = {
+  id: number
+  translations: {
+    es: string
+    en: string
+    fr: string
+    it: string
+  }
+}
+
 export type Phrase = {
   id: number
   translations: {
@@ -16,6 +26,7 @@ export type Phrase = {
     fr: string
     it: string
   }
+  touristReplies?: TouristReply[]
 }
 
 export type PhraseSubCategory = {
@@ -52,6 +63,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/bɔ̃ʒuʁ bjɛ̃vəny o paʁk ʒagwaʁ/',
           it: "/'tʃa.o ben've:nuto al 'parkɔ ʒa'gwar/",
         },
+        touristReplies: [
+          {
+            id: 101,
+            translations: {
+              es: '¡Hola! Gracias.',
+              en: 'Hello! Thank you.',
+              fr: 'Bonjour ! Merci.',
+              it: 'Ciao! Grazie.',
+            },
+          },
+          {
+            id: 102,
+            translations: {
+              es: '¡Hola! ¿Hablas inglés?',
+              en: 'Hi! Do you speak English?',
+              fr: 'Salut ! Parlez-vous anglais ?',
+              it: 'Salve! Parla inglese?',
+            },
+          },
+        ],
       },
       {
         id: 2,
@@ -67,6 +98,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/ɛs vɔtʁ pʁəmjɛʁ fwa isi?/',
           it: "/'ɛ la 'swa 'prima 'vɔlta kwi/",
         },
+        touristReplies: [
+            {
+              id: 201,
+              translations: {
+                es: 'Sí, es nuestra primera vez.',
+                en: "Yes, it's our first time.",
+                fr: 'Oui, c\'est notre première fois.',
+                it: 'Sì, è la nostra prima volta.',
+              },
+            },
+            {
+              id: 202,
+              translations: {
+                es: 'No, ya hemos venido antes.',
+                en: 'No, we have been here before.',
+                fr: 'Non, nous sommes déjà venus.',
+                it: 'No, siamo già stati qui.',
+              },
+            },
+          ],
       },
       {
         id: 9,

@@ -1,11 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import type { Phrase } from '@/lib/phrases'
+import type { Phrase, TouristReply } from '@/lib/phrases'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { FranceFlag, ItalyFlag, USFlag } from './icons'
+import { FranceFlag, ItalyFlag, USFlag, SpainFlag } from './icons'
 import { AudioPlayer } from './AudioPlayer'
 import { Button } from './ui/button'
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+import { MessageSquareQuote } from 'lucide-react'
 
 type Language = 'en' | 'fr' | 'it'
 
@@ -24,6 +26,29 @@ export function PhraseCard({ phrase }: Props) {
   const languages: Language[] = ['en', 'fr', 'it']
 
   const ActiveFlag = languageDetails[activeLang].flag
+
+  const renderTouristReplies = (replies: TouristReply[]) => (
+    <Accordion type="single" collapsible className="w-full mt-4">
+      <AccordionItem value="tourist-replies" className="border-border/50">
+        <AccordionTrigger className="text-sm font-semibold text-muted-foreground hover:no-underline">
+          <div className="flex items-center gap-2">
+            <MessageSquareQuote className="h-4 w-4" />
+            Posibles respuestas del turista
+          </div>
+        </AccordionTrigger>
+        <AccordionContent>
+          <ul className="space-y-3 pt-2">
+            {replies.map((reply) => (
+              <li key={reply.id} className="text-sm">
+                <div className="font-medium text-foreground">{reply.translations[activeLang]}</div>
+                <div className="text-muted-foreground">{reply.translations['es']}</div>
+              </li>
+            ))}
+          </ul>
+        </AccordionContent>
+      </AccordionItem>
+    </Accordion>
+  )
 
   return (
     <Card className="flex flex-col">
@@ -47,6 +72,7 @@ export function PhraseCard({ phrase }: Props) {
               lang={languageDetails[activeLang].langCode}
             />
           </div>
+          {phrase.touristReplies && phrase.touristReplies.length > 0 && renderTouristReplies(phrase.touristReplies)}
         </div>
         <div className="mt-4 grid grid-cols-3 gap-2">
           {languages.map((lang) => {

@@ -44,7 +44,7 @@ const Marker = ({
 const markerPositions: Record<string, { top: string; left: string }> = {
   reception: { top: '80%', left: '50%' },
   'zip-lining': { top: '30%', left: '10%' },
-  kayak: { top: '45%', left: '88%' },
+  kayak: { top: '45%', left: '86%' },
   bicycle: { top: '15%', left: '80%' },
   atv: { top: '15%', left: '70%' },
   cafeteria: { top: '55%', left: '60%' },
@@ -64,8 +64,8 @@ export function Map() {
   return (
     <div className="relative w-full overflow-hidden rounded-lg border">
       <Image
-        src={mapImage.src}
-        alt={mapImage.alt}
+        src="/map.png"
+        alt="Mapa del Parque Jaguar"
         width={mapImage.width}
         height={mapImage.height}
         className="h-auto w-full"

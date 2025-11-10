@@ -44,9 +44,9 @@ const Marker = ({
 const markerPositions: Record<string, { top: string; left: string }> = {
   reception: { top: '80%', left: '50%' },
   'zip-lining': { top: '30%', left: '10%' },
-  kayak: { top: '65%', left: '25%' },
-  bicycle: { top: '15%', left: '70%' },
-  atv: { top: '15%', left: '60%' },
+  kayak: { top: '35%', left: '75%' },
+  bicycle: { top: '15%', left: '60%' },
+  atv: { top: '15%', left: '50%' },
   cafeteria: { top: '55%', left: '60%' },
   amphitheater: { top: '75%', left: '78%' },
   restrooms: { top: '75%', left: '40%' },

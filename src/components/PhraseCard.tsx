@@ -39,9 +39,15 @@ export function PhraseCard({ phrase }: Props) {
         <AccordionContent>
           <ul className="space-y-3 pt-2">
             {replies.map((reply) => (
-              <li key={reply.id} className="text-sm">
-                <div className="font-medium text-foreground">{reply.translations[activeLang]}</div>
-                <div className="text-muted-foreground">{reply.translations['es']}</div>
+              <li key={reply.id} className="text-sm flex justify-between items-center">
+                <div>
+                  <div className="font-medium text-foreground">{reply.translations[activeLang]}</div>
+                  <div className="text-muted-foreground">{reply.translations['es']}</div>
+                </div>
+                <AudioPlayer
+                  text={reply.translations[activeLang]}
+                  lang={languageDetails[activeLang].langCode}
+                />
               </li>
             ))}
           </ul>

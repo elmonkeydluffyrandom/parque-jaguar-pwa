@@ -133,6 +133,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/lɛse mwa vu ɛksplike lez aktivite dispɔnibl/',
           it: "/mi per'metta di spje'garle le at:ivi'ta disponi'bili/",
         },
+        touristReplies: [
+          {
+            id: 901,
+            translations: {
+              es: 'Sí, por favor.',
+              en: 'Yes, please.',
+              fr: 'Oui, s\'il vous plaît.',
+              it: 'Sì, per favore.',
+            },
+          },
+          {
+            id: 902,
+            translations: {
+              es: '¿Qué actividades tienen?',
+              en: 'What activities do you have?',
+              fr: 'Quelles activités proposez-vous ?',
+              it: 'Quali attività avete?',
+            },
+          },
+        ],
       },
       {
         id: 10,
@@ -148,6 +168,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/o paʁk ʒagwaʁ nu pʁopozɔ̃ dez aktivite kɔm la tiʁɔljɛn le kwad lə velo e lə kajak/',
           it: "/al 'parkɔ ʒa'gwar of'friamo attivi'ta 'kome la tele'ferika i 'kwad le bitʃi'klette e il ka'jak/",
         },
+        touristReplies: [
+          {
+            id: 1001,
+            translations: {
+              es: 'Suena divertido. ¿Cuánto cuesta?',
+              en: 'Sounds fun. How much does it cost?',
+              fr: 'Ça a l\'air amusant. Combien ça coûte ?',
+              it: 'Sembra divertente. Quanto costa?',
+            },
+          },
+          {
+            id: 1002,
+            translations: {
+              es: 'Me interesa la tirolesa.',
+              en: 'I\'m interested in the zip line.',
+              fr: 'Je suis intéressé par la tyrolienne.',
+              it: 'Sono interessato alla teleferica.',
+            },
+          },
+        ],
       },
       {
         id: 11,
@@ -163,6 +203,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/lə fɔʁfɛ kut dø sɑ̃ sɛ̃kɑ̃t peso mɛksikɛ̃ swa tʁɛz dɔlaʁ/',
           it: "/il pak'ketto 'kɔsta du'tʃento 'tʃinkwan'ta 'pezos messi'kani ov'vero 'tredze 'dɔllari/",
         },
+        touristReplies: [
+          {
+            id: 1101,
+            translations: {
+              es: 'Está bien, lo tomaré.',
+              en: 'Okay, I\'ll take it.',
+              fr: 'D\'accord, je le prends.',
+              it: 'Va bene, lo prendo.',
+            },
+          },
+          {
+            id: 1102,
+            translations: {
+              es: '¿Se puede pagar con tarjeta?',
+              en: 'Can I pay by card?',
+              fr: 'Puis-je payer par carte ?',
+              it: 'Posso pagare con la carta?',
+            },
+          },
+        ],
       },
       {
         id: 12,
@@ -178,6 +238,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/nuz‿avɔ̃ osi ɛ̃ kafe apəle ʃaka/',
           it: "/ab'biamo 'anke un bar kia'mato 'ʃaka/",
         },
+        touristReplies: [
+          {
+            id: 1201,
+            translations: {
+              es: 'Genial, ¿dónde está?',
+              en: 'Great, where is it?',
+              fr: 'Super, où est-ce ?',
+              it: 'Ottimo, dov\'è?',
+            },
+          },
+          {
+            id: 1202,
+            translations: {
+              es: '¿Qué tipo de comida sirven?',
+              en: 'What kind of food do they serve?',
+              fr: 'Quel genre de nourriture servent-ils ?',
+              it: 'Che tipo di cibo servono?',
+            },
+          },
+        ],
       },
       {
         id: 13,
@@ -193,6 +273,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/siɲe isi avɑ̃ də kɔmɑ̃se sɛt yn deʃaʁʒ də rɛspɔ̃sabilite vu puve la liʁ sɑ̃ pʁɔblɛm/',
           it: "/'firmi kwi 'prima di init'tsjare ɛ una liberato'rja di responsabili'ta pwɔ 'ledʒerla 'sentsa pro'blɛmi/",
         },
+        touristReplies: [
+          {
+            id: 1301,
+            translations: {
+              es: 'Claro, ¿dónde firmo?',
+              en: 'Sure, where do I sign?',
+              fr: 'Bien sûr, où dois-je signer ?',
+              it: 'Certo, dove firmo?',
+            },
+          },
+          {
+            id: 1302,
+            translations: {
+              es: '¿Qué es esto?',
+              en: 'What is this for?',
+              fr: 'À quoi ça sert ?',
+              it: 'A cosa serve?',
+            },
+          },
+        ],
       },
       {
         id: 14,
@@ -208,6 +308,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/il ja dø twalɛt lyn a dʁwat e lotʁ a goʃ/',
           it: "/tʃi 'sono 'dwe 'baɲɲi 'uno a 'dɛstra e 'uno a si'nistra/",
         },
+        touristReplies: [
+          {
+            id: 1401,
+            translations: {
+              es: 'Gracias, voy al de la derecha.',
+              en: 'Thanks, I\'ll use the one on the right.',
+              fr: 'Merci, je vais à celui de droite.',
+              it: 'Grazie, uso quello a destra.',
+            },
+          },
+        ],
       },
       {
         id: 15,
@@ -223,6 +334,26 @@ export const phraseData: PhraseCategory[] = [
           fr: '/vu puve lese voz afɛʁ a la ʁesɛpsjɔ̃/',
           it: "/pwɔ la'ʃare i 'swɔi o'dʒɛtti alla re'tʃɛpsjon/",
         },
+        touristReplies: [
+          {
+            id: 1501,
+            translations: {
+              es: 'Perfecto, gracias.',
+              en: 'Perfect, thank you.',
+              fr: 'Parfait, merci.',
+              it: 'Perfetto, grazie.',
+            },
+          },
+          {
+            id: 1502,
+            translations: {
+              es: '¿Es seguro dejarlas aquí?',
+              en: 'Is it safe to leave them here?',
+              fr: 'Est-ce sûr de les laisser ici ?',
+              it: 'È sicuro lasciarli qui?',
+            },
+          },
+        ],
       },
       {
         id: 16,
@@ -238,6 +369,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/mɛʁsi də vɔtʁ vizit nu ɛspɛʁɔ̃ kə vuz‿apʁesjəʁe vɔtʁ ɛkspɛʁjɑ̃s/',
           it: "/'grattsje per la 'vizita sper'jamo ke la 'swa esperi'entsa 'sija pja'tʃevole/",
         },
+        touristReplies: [
+          {
+            id: 1601,
+            translations: {
+              es: 'Gracias, ¡estamos muy emocionados!',
+              en: 'Thank you, we are very excited!',
+              fr: 'Merci, nous sommes très excités !',
+              it: 'Grazie, siamo molto emozionati!',
+            },
+          },
+        ],
       },
       {
         id: 17,
@@ -253,6 +395,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/si vuz ave bəzwɛ̃ dɛd nu səʁɔ̃ zœʁø də vu zede/',
           it: "/se a bi'zoɲɲo di a'juto sa'remo fe'litʃi di ajut'tarla/",
         },
+        touristReplies: [
+          {
+            id: 1701,
+            translations: {
+              es: 'Muy amable, gracias.',
+              en: 'That\'s very kind, thank you.',
+              fr: 'C\'est très gentil, merci.',
+              it: 'Molto gentile, grazie.',
+            },
+          },
+        ],
       },
       {
         id: 32,
@@ -268,6 +421,26 @@ export const phraseData: PhraseCategory[] = [
           fr: "/vule vu yn foto suvniʁ sa kut sɑ̃ pezo mɛksikɛ̃/",
           it: "/'vwɔle 'una 'fɔto ri'kɔrdo 'kɔsta 'tʃɛnto 'pesos messi'kani/",
         },
+        touristReplies: [
+          {
+            id: 3201,
+            translations: {
+              es: 'Sí, por favor.',
+              en: 'Yes, please.',
+              fr: 'Oui, s\'il vous plaît.',
+              it: 'Sì, per favore.',
+            },
+          },
+          {
+            id: 3202,
+            translations: {
+              es: 'No, gracias.',
+              en: 'No, thank you.',
+              fr: 'Non, merci.',
+              it: 'No, grazie.',
+            },
+          },
+        ],
       },
       {
         id: 33,
@@ -283,6 +456,17 @@ export const phraseData: PhraseCategory[] = [
           fr: "/nublje pa də nu sɥivʁ syʁ no ʁezo sosjo/",
           it: "/non dimen'tiki di se'gwirtʃi suj 'nɔstri 'sɔtʃal 'midja/",
         },
+        touristReplies: [
+          {
+            id: 3301,
+            translations: {
+              es: 'Claro, ¿cuáles son?',
+              en: 'Sure, what are they?',
+              fr: 'Bien sûr, quels sont-ils ?',
+              it: 'Certo, quali sono?',
+            },
+          },
+        ],
       },
       {
         id: 34,
@@ -298,6 +482,17 @@ export const phraseData: PhraseCategory[] = [
           fr: "/vu puve nu tʁuve syʁ fejsbuk e ɛ̃stagʁam su lə nɔ̃ də paʁkə ʒagwaʁ/",
           it: "/tʃi pwɔ tro'vare su 'fejsbuk e 'instagram 'kome 'parke ja'gwar/",
         },
+        touristReplies: [
+          {
+            id: 3401,
+            translations: {
+              es: 'Genial, los seguiré.',
+              en: 'Great, I\'ll follow you.',
+              fr: 'Super, je vous suivrai.',
+              it: 'Ottimo, vi seguirò.',
+            },
+          },
+        ],
       },
       {
         id: 35,
@@ -313,6 +508,26 @@ export const phraseData: PhraseCategory[] = [
           fr: "/vule vu aʒute ɛ̃ puʁbwaʁ/",
           it: "/'vwɔle ad'dʒundʒere 'una 'mantʃa/",
         },
+        touristReplies: [
+          {
+            id: 3501,
+            translations: {
+              es: 'Sí, un 10 por ciento.',
+              en: 'Yes, 10 percent.',
+              fr: 'Oui, 10 pour cent.',
+              it: 'Sì, il 10 percento.',
+            },
+          },
+          {
+            id: 3502,
+            translations: {
+              es: 'No, gracias.',
+              en: 'No, thank you.',
+              fr: 'Non, merci.',
+              it: 'No, grazie.',
+            },
+          },
+        ],
       },
       {
         id: 36,
@@ -328,6 +543,26 @@ export const phraseData: PhraseCategory[] = [
           fr: "/nu zakseptɔ̃ le pɛmɑ̃ ɑ̃n‿ɛspɛs u paʁ kaʁt/",
           it: "/attʃet'tjamo paga'menti in kon'tanti o kon 'karta/",
         },
+        touristReplies: [
+          {
+            id: 3601,
+            translations: {
+              es: 'Pagaré con tarjeta.',
+              en: 'I\'ll pay by card.',
+              fr: 'Je paierai par carte.',
+              it: 'Pagherò con la carta.',
+            },
+          },
+          {
+            id: 3602,
+            translations: {
+              es: 'Pagaré en efectivo.',
+              en: 'I\'ll pay with cash.',
+              fr: 'Je paierai en espèces.',
+              it: 'Pagherò in contanti.',
+            },
+          },
+        ],
       },
     ],
   },
@@ -354,6 +589,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/ʒə ve vu mɛtʁ lə aʁnɛ sa vu va/',
               it: "/le 'metto limbraka'tura va 'be:ne/",
             },
+            touristReplies: [
+              {
+                id: 1801,
+                translations: {
+                  es: 'Sí, está bien.',
+                  en: 'Yes, that\'s fine.',
+                  fr: 'Oui, ça va.',
+                  it: 'Sì, va bene.',
+                },
+              },
+            ],
           },
           {
             id: 19,
@@ -369,6 +615,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/lɛse mwa aʒyste vɔtʁ kask sil vu plɛ/',
               it: "/mi per'metta di siste'marle il 'kasko per fa'vore/",
             },
+            touristReplies: [
+              {
+                id: 1901,
+                translations: {
+                  es: 'Claro, adelante.',
+                  en: 'Sure, go ahead.',
+                  fr: 'Bien sûr, allez-y.',
+                  it: 'Certo, prego.',
+                },
+              },
+            ],
           },
           {
             id: 20,
@@ -384,6 +641,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/asyre vu kə le sɑ̃gl swa bjɛ̃ seʁe/',
               it: "/si as'sikuri ke le 'tʃingje 'sjano ben 'strette/",
             },
+            touristReplies: [
+              {
+                id: 2001,
+                translations: {
+                  es: '¿Así está bien?',
+                  en: 'Is this okay?',
+                  fr: 'Est-ce que c\'est bon comme ça ?',
+                  it: 'Va bene così?',
+                },
+              },
+            ],
           },
           {
             id: 21,
@@ -399,6 +667,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/nə ʁətiʁe pa vɔtʁ kask ni vɔtʁ aʁnɛ avɑ̃ kɔ̃ vu lə diz/',
               it: "/non 'tɔlga il 'kasko ne limbraka'tura fin'ke non 'ʎelo di'tʃamo/",
             },
+            touristReplies: [
+              {
+                id: 2101,
+                translations: {
+                  es: 'Entendido.',
+                  en: 'Understood.',
+                  fr: 'Compris.',
+                  it: 'Capito.',
+                },
+              },
+            ],
           },
           {
             id: 22,
@@ -414,6 +693,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/sɛt ekipmɑ̃ ɛ puʁ vɔtʁ sekyʁite/',
               it: "/'kwesta ttrɛt:sa'tu:ra ɛ per la 'swa siku'ret'tsa/",
             },
+            touristReplies: [
+              {
+                id: 2201,
+                translations: {
+                  es: 'Lo aprecio, gracias.',
+                  en: 'I appreciate that, thank you.',
+                  fr: 'Je l\'apprécie, merci.',
+                  it: 'Lo apprezzo, grazie.',
+                },
+              },
+            ],
           },
         ],
       },
@@ -435,6 +725,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/atɑ̃de votʁ tuʁ avɑ̃ də paʁtiʁ/',
               it: "/at'tenda il 'swo 'turno 'prima di lan'tʃarsi/",
             },
+            touristReplies: [
+              {
+                id: 2301,
+                translations: {
+                  es: 'Está bien, esperaré.',
+                  en: 'Okay, I will wait.',
+                  fr: 'D\'accord, j\'attendrai.',
+                  it: 'Va bene, aspetterò.',
+                },
+              },
+            ],
           },
           {
             id: 24,
@@ -450,6 +751,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/nə sote pa lese vu ale kɑ̃ ʒə vu lə di/',
               it: "/non 'salti si 'laʃʃi an'dare 'kwando 'ʎelo 'diko/",
             },
+            touristReplies: [
+              {
+                id: 2401,
+                translations: {
+                  es: 'De acuerdo, no saltaré.',
+                  en: 'Okay, I won\'t jump.',
+                  fr: 'D\'accord, je ne sauterai pas.',
+                  it: 'Va bene, non salterò.',
+                },
+              },
+            ],
           },
           {
             id: 25,
@@ -465,6 +777,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/si sɛ vɔtʁ pʁəmjɛʁ fwa nə vuz ɛ̃kjete pa sɛ tʁɛ syʁ/',
               it: "/se ɛ la 'swa 'prima 'vɔlta non si preok'kupi ɛ 'molto si'kuro/",
             },
+            touristReplies: [
+              {
+                id: 2501,
+                translations: {
+                  es: 'Gracias, eso me tranquiliza.',
+                  en: 'Thank you, that\'s reassuring.',
+                  fr: 'Merci, c\'est rassurant.',
+                  it: 'Grazie, questo mi rassicura.',
+                },
+              },
+            ],
           },
           {
             id: 26,
@@ -480,6 +803,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/gaʁde le ʒɑ̃b seʁe pɑ̃dɑ̃ lə vɔl/',
               it: "/'tenga le 'gambe u'nite du'rante il 'volo/",
             },
+            touristReplies: [
+              {
+                id: 2601,
+                translations: {
+                  es: 'Entendido.',
+                  en: 'Got it.',
+                  fr: 'Compris.',
+                  it: 'Ricevuto.',
+                },
+              },
+            ],
           },
           {
             id: 27,
@@ -495,6 +829,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/bɔ̃ vɔl e pʁɔfite də la vy/',
               it: "/'bwɔn 'volo e si 'gɔda la 'vista/",
             },
+            touristReplies: [
+              {
+                id: 2701,
+                translations: {
+                  es: '¡Gracias!',
+                  en: 'Thank you!',
+                  fr: 'Merci !',
+                  it: 'Grazie!',
+                },
+              },
+            ],
           },
         ],
       },
@@ -516,6 +861,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/sa va/',
               it: "/sta 'be:ne/",
             },
+            touristReplies: [
+              {
+                id: 2801,
+                translations: {
+                  es: 'Sí, estoy bien. ¡Fue increíble!',
+                  en: 'Yes, I\'m okay. That was amazing!',
+                  fr: 'Oui, ça va. C\'était incroyable !',
+                  it: 'Sì, sto bene. È stato incredibile!',
+                },
+              },
+            ],
           },
           {
             id: 29,
@@ -531,6 +887,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/ave vu zeme lɛksperjɑ̃s/',
               it: "/le ɛ pja'tʃuta lesper'jentsa/",
             },
+            touristReplies: [
+              {
+                id: 2901,
+                translations: {
+                  es: '¡Sí, me encantó!',
+                  en: 'Yes, I loved it!',
+                  fr: 'Oui, j\'ai adoré !',
+                  it: 'Sì, mi è piaciuto tantissimo!',
+                },
+              },
+            ],
           },
           {
             id: 30,
@@ -546,6 +913,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/mɛrsi davwar vɔle avɛk nu/',
               it: "/'grattsje per a'ver vo'lato kon 'noi/",
             },
+            touristReplies: [
+              {
+                id: 3001,
+                translations: {
+                  es: 'Gracias a ustedes. ¡Fue genial!',
+                  en: 'Thank you. It was great!',
+                  fr: 'Merci à vous. C\'était super !',
+                  it: 'Grazie a voi. È stato fantastico!',
+                },
+              },
+            ],
           },
           {
             id: 31,
@@ -561,6 +939,17 @@ export const phraseData: PhraseCategory[] = [
               fr: '/vu puve vu kəpoze œ̃ mɔmã avã də kõtinɥe/',
               it: "/pwɔ ripo'sarsi un mo'mento 'prima di kontinu'are/",
             },
+            touristReplies: [
+              {
+                id: 3101,
+                translations: {
+                  es: 'Sí, gracias. Necesito un respiro.',
+                  en: 'Yes, thanks. I need a break.',
+                  fr: 'Oui, merci. J\'ai besoin d\'une pause.',
+                  it: 'Sì, grazie. Ho bisogno di una pausa.',
+                },
+              },
+            ],
           },
         ],
       },
@@ -585,6 +974,17 @@ export const phraseData: PhraseCategory[] = [
             fr: '/pɔʁte vɔtʁ ʒilɛ də sovtaʒ ɑ̃ tu tɑ̃/',
             it: "/in'dɔssi 'sɛmpre il dʒub'bɔtto di salva'tadʒdʒo/",
           },
+          touristReplies: [
+              {
+                id: 3701,
+                translations: {
+                  es: 'De acuerdo.',
+                  en: 'Okay.',
+                  fr: 'D\'accord.',
+                  it: 'Va bene.',
+                },
+              },
+            ],
         },
         {
           id: 38,
@@ -600,6 +1000,17 @@ export const phraseData: PhraseCategory[] = [
             fr: "/nə vuz‿elwaɲe pa dy ʁivaʒ/",
             it: "/non si allon'tani dalla 'riva/",
           },
+          touristReplies: [
+              {
+                id: 3801,
+                translations: {
+                  es: 'Entendido, me quedaré cerca.',
+                  en: 'Understood, I will stay close.',
+                  fr: 'Compris, je resterai près du bord.',
+                  it: 'Capito, resterò vicino.',
+                },
+              },
+            ],
         },
         {
           id: 39,
@@ -615,6 +1026,17 @@ export const phraseData: PhraseCategory[] = [
             fr: '/pagaje lɑ̃tmɑ̃ e ytilize le dø bʁa/',
             it: "/'remi lenta'mente e 'uzi en'trambe le 'brattʃa/",
           },
+          touristReplies: [
+              {
+                id: 3901,
+                translations: {
+                  es: 'Así está bien?',
+                  en: 'Like this?',
+                  fr: 'Comme ça ?',
+                  it: 'Così va bene?',
+                },
+              },
+            ],
         },
         {
           id: 40,
@@ -630,6 +1052,17 @@ export const phraseData: PhraseCategory[] = [
             fr: '/gaʁde yn distɑ̃s də sekyʁite avɛk lez‿otʁə kajak/',
             it: "/man'tenga la di'stantsa di siku'ret'tsa daʎʎi 'altri 'kaiak/",
           },
+          touristReplies: [
+              {
+                id: 4001,
+                translations: {
+                  es: 'Sí, tendré cuidado.',
+                  en: 'Yes, I\'ll be careful.',
+                  fr: 'Oui, je ferai attention.',
+                  it: 'Sì, starò attento.',
+                },
+              },
+            ],
         },
         {
           id: 41,
@@ -645,6 +1078,17 @@ export const phraseData: PhraseCategory[] = [
             fr: "/si vuz‿ave bəzwɛ̃ dɛd ləve vɔtʁ pagɛ/",
             it: "/se a bi'zoɲɲo di a'juto 'altsi la pa'ga:ja/",
           },
+          touristReplies: [
+              {
+                id: 4101,
+                translations: {
+                  es: 'Ok, gracias.',
+                  en: 'Okay, thanks.',
+                  fr: 'D\'accord, merci.',
+                  it: 'Ok, grazie.',
+                },
+              },
+            ],
         },
         {
           id: 42,
@@ -660,6 +1104,17 @@ export const phraseData: PhraseCategory[] = [
             fr: '/evite də œʁte lez‿otʁə kajak/',
             it: "/'eviti di ur'tare 'altri 'kaiak/",
           },
+          touristReplies: [
+              {
+                id: 4201,
+                translations: {
+                  es: 'Entendido.',
+                  en: 'Understood.',
+                  fr: 'Compris.',
+                  it: 'Capito.',
+                },
+              },
+            ],
         },
         {
           id: 43,
@@ -675,6 +1130,17 @@ export const phraseData: PhraseCategory[] = [
             fr: '/a vɔtʁ ʁətuʁ lɛse lə kajak o mɛm ɑ̃dʁwa/',
             it: "/al ri'torno 'laʃʃi il 'kaiak 'nello 'stesso 'posto/",
           },
+          touristReplies: [
+              {
+                id: 4301,
+                translations: {
+                  es: 'Perfecto.',
+                  en: 'Perfect.',
+                  fr: 'Parfait.',
+                  it: 'Perfetto.',
+                },
+              },
+            ],
         },
         {
           id: 44,
@@ -690,6 +1156,17 @@ export const phraseData: PhraseCategory[] = [
             fr: "/mɛʁsi davwaʁ pagaje avɛk nu/",
             it: "/'grattsje per a'ver re'mato kon 'noi/",
           },
+          touristReplies: [
+              {
+                id: 4401,
+                translations: {
+                  es: '¡Fue muy relajante!',
+                  en: 'It was very relaxing!',
+                  fr: 'C\'était très relaxant !',
+                  it: 'È stato molto rilassante!',
+                },
+              },
+            ],
         },
       ],
   },
@@ -712,6 +1189,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/pɔrte vɔtr kas pɑ̃dɑ̃ tu lə parkur/',
           it: "/in'dossi il 'kasko du'rante 'tutto il per'korso/",
         },
+        touristReplies: [
+            {
+              id: 4501,
+              translations: {
+                es: 'Claro, me lo pongo ahora.',
+                en: 'Sure, I\'ll put it on now.',
+                fr: 'Bien sûr, je le mets tout de suite.',
+                it: 'Certo, lo metto subito.',
+              },
+            },
+          ],
       },
       {
         id: 46,
@@ -727,6 +1215,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/garde tuʒur lə gid dy grup ɑ̃ vy/',
           it: "/'tenga 'sempre in 'vista la 'gwi:da del 'gruppo/",
         },
+        touristReplies: [
+            {
+              id: 4601,
+              translations: {
+                es: 'De acuerdo, no me alejaré.',
+                en: 'Okay, I won\'t go far.',
+                fr: 'D\'accord, je ne m\'éloignerai pas.',
+                it: 'Va bene, non mi allontanerò.',
+              },
+            },
+          ],
       },
       {
         id: 47,
@@ -742,6 +1241,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/nə kite pa lə sɑ̃tje balize/',
           it: "/non 'ɛska dal sen'tjero seɲɲa'lato/",
         },
+        touristReplies: [
+            {
+              id: 4701,
+              translations: {
+                es: 'Entendido, seguiré el camino.',
+                en: 'Got it, I\'ll stick to the path.',
+                fr: 'Compris, je resterai sur le chemin.',
+                it: 'Capito, seguirò il sentiero.',
+              },
+            },
+          ],
       },
       {
         id: 48,
@@ -757,6 +1267,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/garde yn vites mɔdeʁe/',
           it: "/man'tenga 'una velotʃi'ta mode'rata/",
         },
+        touristReplies: [
+            {
+              id: 4801,
+              translations: {
+                es: 'Sí, iré con calma.',
+                en: 'Yes, I\'ll take it easy.',
+                fr: 'Oui, j\'irai doucement.',
+                it: 'Sì, andrò piano.',
+              },
+            },
+          ],
       },
       {
         id: 49,
@@ -772,6 +1293,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/si vuz ave bəzwɛ̃ dɛd ləve la mɛ̃/',
           it: "/se a bi'zoɲɲo di a'juto 'altsi la 'mano/",
         },
+        touristReplies: [
+            {
+              id: 4901,
+              translations: {
+                es: 'Ok, lo haré.',
+                en: 'Okay, I will.',
+                fr: 'D\'accord, je le ferai.',
+                it: 'Ok, lo farò.',
+              },
+            },
+          ],
       },
       {
         id: 50,
@@ -779,7 +1311,7 @@ export const phraseData: PhraseCategory[] = [
           es: 'No tire basura durante el recorrido.',
           en: "Please don't litter during the ride.",
           fr: 'Ne jetez pas de déchets pendant la balade.',
-          it: 'Non getti rifiuti durante il percorso.',
+          it: 'Non getti rifiuti during il percorso.',
         },
         phonetics: {
           es: 'No tire basura durante el recorrido.',
@@ -787,6 +1319,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/nə ʒəte pa də deʃɛ pɑ̃dɑ̃ la balad/',
           it: "/non 'dʒetti ri'fjuti du'rante il per'korso/",
         },
+        touristReplies: [
+            {
+              id: 5001,
+              translations: {
+                es: 'No se preocupe, no lo haré.',
+                en: 'Don\'t worry, I won\'t.',
+                fr: 'Ne vous inquiétez pas, je ne le ferai pas.',
+                it: 'Non si preoccupi, non lo farò.',
+              },
+            },
+          ],
       },
       {
         id: 51,
@@ -802,6 +1345,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/a la fɛ̃ lɛse lə velo o mɛm ɑ̃dʁwa/',
           it: "/alla 'fine 'laʃʃi la bitʃi'kletta 'nello 'stesso 'posto/",
         },
+        touristReplies: [
+            {
+              id: 5101,
+              translations: {
+                es: 'De acuerdo.',
+                en: 'Okay.',
+                fr: 'D\'accord.',
+                it: 'Va bene.',
+              },
+            },
+          ],
       },
       {
         id: 52,
@@ -817,6 +1371,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/mɛrsi pur vɔtrə balad nu zɛspɛʁɔ̃ kə vu lave apʁesje/',
           it: "/'grattsje per il 'dʒiro speri'amo ke le sia pja'tʃuto/",
         },
+        touristReplies: [
+            {
+              id: 5201,
+              translations: {
+                es: '¡Fue un gran paseo!',
+                en: 'It was a great ride!',
+                fr: 'C\'était une super balade !',
+                it: 'È stato un bel giro!',
+              },
+            },
+          ],
       },
     ],
   },
@@ -839,6 +1404,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/pɔʁte vɔtʁ kask ɑ̃ tu tɑ̃/',
           it: "/in'dossi 'sɛmpre il 'kasko/",
         },
+        touristReplies: [
+            {
+              id: 5301,
+              translations: {
+                es: 'Sí, lo tengo puesto.',
+                en: 'Yes, I have it on.',
+                fr: 'Oui, je l\'ai mis.',
+                it: 'Sì, ce l\'ho.',
+              },
+            },
+          ],
       },
       {
         id: 54,
@@ -854,6 +1430,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/gaʁde yn vitɛs mɔdeʁe pɑ̃dɑ̃ la balad/',
           it: "/man'tenga 'una velotʃi'ta mode'rata du'rante il per'korso/",
         },
+        touristReplies: [
+            {
+              id: 5401,
+              translations: {
+                es: 'Entendido, iré despacio.',
+                en: 'Got it, I\'ll go slow.',
+                fr: 'Compris, j\'irai lentement.',
+                it: 'Capito, andrò piano.',
+              },
+            },
+          ],
       },
       {
         id: 55,
@@ -869,11 +1456,22 @@ export const phraseData: PhraseCategory[] = [
           fr: '/naksɛleʁe pa tʁo e nə fɛt pa də viʁaʒ bʁysk/',
           it: "/non at'tʃel:eri 'troppo e non 'fattʃa 'kurve 'bruske/",
         },
+        touristReplies: [
+            {
+              id: 5501,
+              translations: {
+                es: 'De acuerdo, tendré cuidado.',
+                en: 'Okay, I\'ll be careful.',
+                fr: 'D\'accord, je ferai attention.',
+                it: 'Va bene, starò attento.',
+              },
+            },
+          ],
       },
       {
         id: 56,
         translations: {
-          es: 'No rebase a los demás participantes.',
+          es: 'No rebase a los demás participants.',
           en: 'Do not overtake other riders.',
           fr: 'Ne doublez pas les autres conducteurs.',
           it: 'Non sorpassi gli altri partecipanti.',
@@ -884,6 +1482,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/nə duble pa lez otʁə kɔ̃dyktœʁ/',
           it: "/non sor'passi ʎi 'altri partetʃi'panti/",
         },
+        touristReplies: [
+            {
+              id: 5601,
+              translations: {
+                es: 'Entendido.',
+                en: 'Got it.',
+                fr: 'Compris.',
+                it: 'Capito.',
+              },
+            },
+          ],
       },
       {
         id: 57,
@@ -899,6 +1508,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/gaʁde le dø mɛ̃ syʁ lə gidɔ̃/',
           it: "/'tenga en'trambe le 'mani sul ma'nu:brio/",
         },
+        touristReplies: [
+            {
+              id: 5701,
+              translations: {
+                es: 'Sí, lo haré.',
+                en: 'Yes, I will.',
+                fr: 'Oui, je le ferai.',
+                it: 'Sì, lo farò.',
+              },
+            },
+          ],
       },
       {
         id: 58,
@@ -914,6 +1534,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/evite le zon buøz u pjɛʁøz/',
           it: "/'eviti le 'tsone fan'go:ze o rot'tʃoze/",
         },
+        touristReplies: [
+            {
+              id: 5801,
+              translations: {
+                es: 'Ok, gracias por el aviso.',
+                en: 'Okay, thanks for the heads-up.',
+                fr: 'D\'accord, merci pour l\'avertissement.',
+                it: 'Ok, grazie per l\'avviso.',
+              },
+            },
+          ],
       },
       {
         id: 59,
@@ -929,6 +1560,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/si lə kwad saʁɛt atɑ̃de lə gid/',
           it: "/se il 'kwad si 'ferma a'spetti la 'gwi:da/",
         },
+        touristReplies: [
+            {
+              id: 5901,
+              translations: {
+                es: 'De acuerdo.',
+                en: 'Okay.',
+                fr: 'D\'accord.',
+                it: 'Va bene.',
+              },
+            },
+          ],
       },
       {
         id: 60,
@@ -944,6 +1586,17 @@ export const phraseData: PhraseCategory[] = [
           fr: '/nə ʒəte pa də deʃɛ pɑ̃dɑ̃ la balad/',
           it: "/non 'dʒetti ri'fjuti du'rante il per'korso/",
         },
+        touristReplies: [
+            {
+              id: 6001,
+              translations: {
+                es: 'No lo haré.',
+                en: 'I won\'t.',
+                fr: 'Je ne le ferai pas.',
+                it: 'Non lo farò.',
+              },
+            },
+          ],
       },
       {
         id: 61,
@@ -959,6 +1612,17 @@ export const phraseData: PhraseCategory[] = [
           fr: "/mɛʁsi davwaʁ fɛ la balad avɛk nu nu zɛspɛʁɔ̃ kə vu ave ɛme/",
           it: "/'grattsje per a'ver partetʃi'pato sper'jamo ke le sia pja'tʃuto/",
         },
+        touristReplies: [
+            {
+              id: 6101,
+              translations: {
+                es: '¡Fue muy emocionante!',
+                en: 'It was very exciting!',
+                fr: 'C\'était très excitant !',
+                it: 'È stato molto emozionante!',
+              },
+            },
+          ],
       },
     ],
   },

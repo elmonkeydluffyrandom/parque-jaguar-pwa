@@ -69,7 +69,7 @@ export function Map() {
         width={mapImage.width}
         height={mapImage.height}
         className="h-auto w-full"
-        data-ai-hint={map.hint}
+        data-ai-hint={mapImage.hint}
       />
 
       {phraseData.map((category) => {

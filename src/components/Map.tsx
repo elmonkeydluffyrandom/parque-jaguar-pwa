@@ -43,23 +43,22 @@ const Marker = ({
 }
 
 const markerPositions: Record<string, { top: string; left: string }> = {
-  reception: { top: '35%', left: '48%' },
+  reception: { top: '80%', left: '50%' },
   'zip-lining': { top: '30%', left: '10%' },
   kayak: { top: '65%', left: '25%' },
-  bicycle: { top: '88%', left: '60%' },
   atv: { top: '15%', left: '70%' },
   cafeteria: { top: '55%', left: '60%' },
   amphitheater: { top: '75%', left: '78%' },
-  restrooms: { top: '45%', left: '88%' },
+  restrooms: { top: '75%', left: '40%' },
 }
 
 export function Map() {
   const mapImage = {
-    src: "/map.png",
-    alt: "Un mapa aéreo del Parque Jaguar.",
-    width: 1896,
-    height: 632,
-    hint: "Haz clic en los íconos para ver la ubicación de cada actividad."
+    src: placeholderImages.parkMap.src,
+    alt: placeholderImages.parkMap.alt,
+    width: placeholderImages.parkMap.width,
+    height: placeholderImages.parkMap.height,
+    hint: placeholderImages.parkMap.hint,
   };
 
   return (

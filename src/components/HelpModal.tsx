@@ -13,9 +13,9 @@ export function HelpModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="border-accent/80 bg-accent/90 text-accent-foreground hover:bg-accent hover:text-accent-foreground">
+        <Button variant="outline" size="sm" className="border-accent/80 bg-accent/90 text-accent-foreground hover:bg-accent hover:text-accent-foreground">
           <HelpCircle className="h-5 w-5" />
-          <span className="hidden sm:inline">Ayuda</span>
+          <span className="hidden sm:inline-block ml-2">Ayuda</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-md sm:max-w-lg">
@@ -25,7 +25,7 @@ export function HelpModal() {
             Una guía rápida para ayudarte a empezar.
           </DialogDescription>
         </DialogHeader>
-        <div className="prose prose-sm max-w-none text-foreground">
+        <div className="prose prose-sm max-w-none text-foreground dark:prose-invert">
           <h3 className="font-headline font-semibold">1. Explora las Categorías</h3>
           <p>
             Usa las pestañas en la parte superior para seleccionar una categoría de frases (ej. Recepción, Tirolesa).

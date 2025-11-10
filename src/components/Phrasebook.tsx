@@ -20,9 +20,9 @@ export function Phrasebook() {
 
   return (
     <Tabs defaultValue={displayableCategories[0].id} className="w-full">
-      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7">
+      <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
         {displayableCategories.map((category) => (
-          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-xs sm:text-sm md:text-base">
+          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
             <category.icon className="h-5 w-5" />
             <span className="font-headline">{category.name}</span>
           </TabsTrigger>

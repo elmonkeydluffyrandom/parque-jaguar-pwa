@@ -15,9 +15,9 @@ export function MapModal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="border-accent/80 bg-accent/90 text-accent-foreground hover:bg-accent hover:text-accent-foreground">
+        <Button variant="outline" size="sm" className="border-accent/80 bg-accent/90 text-accent-foreground hover:bg-accent hover:text-accent-foreground">
           <MapIcon className="h-5 w-5" />
-          <span className="hidden sm:inline">Mapa</span>
+          <span className="hidden sm:inline-block ml-2">Mapa</span>
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-3xl w-full max-h-[90vh] overflow-y-auto">

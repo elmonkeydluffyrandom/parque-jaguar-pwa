@@ -8,6 +8,7 @@ import { AudioPlayer } from './AudioPlayer'
 import { Button } from './ui/button'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
 import { MessageSquareQuote } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
 type Language = 'en' | 'fr' | 'it'
 
@@ -63,8 +64,8 @@ export function PhraseCard({ phrase }: Props) {
       </CardHeader>
       <CardContent className="flex flex-1 flex-col justify-between">
         <div>
-          <div className="flex items-center justify-between rounded-lg bg-muted/50 p-4">
-            <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between rounded-lg bg-muted/50 p-3 sm:p-4">
+            <div className="flex items-center gap-3 sm:gap-4">
               <ActiveFlag />
               <div>
                 <p className="font-semibold">{phrase.translations[activeLang]}</p>
@@ -80,7 +81,7 @@ export function PhraseCard({ phrase }: Props) {
           </div>
           {phrase.touristReplies && phrase.touristReplies.length > 0 && renderTouristReplies(phrase.touristReplies)}
         </div>
-        <div className="mt-4 grid grid-cols-3 gap-2">
+        <div className="mt-4 flex flex-col sm:flex-row gap-2">
           {languages.map((lang) => {
             const LangFlag = languageDetails[lang].flag;
             return (
@@ -88,10 +89,12 @@ export function PhraseCard({ phrase }: Props) {
                 key={lang}
                 variant={activeLang === lang ? 'default' : 'outline'}
                 onClick={() => setActiveLang(lang)}
-                className="flex items-center justify-center gap-2"
+                className={cn("w-full justify-center gap-2", {
+                  'sm:w-1/3': languages.length === 3
+                })}
               >
                 <LangFlag />
-                <span className="hidden sm:inline">{languageDetails[lang].name}</span>
+                <span>{languageDetails[lang].name}</span>
               </Button>
             )
           })}

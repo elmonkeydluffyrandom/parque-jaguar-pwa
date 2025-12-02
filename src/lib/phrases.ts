@@ -408,41 +408,6 @@ export const phraseData: PhraseCategory[] = [
         ],
       },
       {
-        id: 32,
-        translations: {
-          es: '¿Gusta tomarse una foto del recuerdo? Tiene un costo de 100 pesos mexicanos.',
-          en: 'Would you like a souvenir photo? It costs 100 Mexican pesos.',
-          fr: 'Voulez-vous une photo souvenir ? Ça coûte 100 pesos mexicains.',
-          it: 'Vuole una foto ricordo? Costa 100 pesos messicani.',
-        },
-        phonetics: {
-          es: '¿Gusta tomarse una foto del recuerdo? Tiene un costo de 100 pesos mexicanos.',
-          en: "/wʊd ju laɪk ə ˌsuːvə'nɪə 'foʊtoʊ ɪt kɒsts wʌn 'hʌndrəd 'mɛksɪkən 'peɪsoʊz/",
-          fr: "/vule vu yn foto suvniʁ sa kut sɑ̃ pezo mɛksikɛ̃/",
-          it: "/'vwɔle 'una 'fɔto ri'kɔrdo 'kɔsta 'tʃɛnto 'pesos messi'kani/",
-        },
-        touristReplies: [
-          {
-            id: 3201,
-            translations: {
-              es: 'Sí, por favor.',
-              en: 'Yes, please.',
-              fr: 'Oui, s\'il vous plaît.',
-              it: 'Sì, per favore.',
-            },
-          },
-          {
-            id: 3202,
-            translations: {
-              es: 'No, gracias.',
-              en: 'No, thank you.',
-              fr: 'Non, merci.',
-              it: 'No, grazie.',
-            },
-          },
-        ],
-      },
-      {
         id: 33,
         translations: {
           es: 'No olvide seguirnos en nuestras redes sociales.',
@@ -471,16 +436,16 @@ export const phraseData: PhraseCategory[] = [
       {
         id: 34,
         translations: {
-          es: 'Puede encontrarnos en Facebook e Instagram como Parque Jaguar.',
-          en: 'You can find us on Facebook and Instagram as Parque Jaguar.',
-          fr: 'Vous pouvez nous trouver sur Facebook et Instagram sous le nom de Parque Jaguar.',
-          it: 'Ci può trovare su Facebook e Instagram come Parque Jaguar.',
+          es: 'Puede encontrarnos en Facebook e Instagram como Tecnm – Escárcega.',
+          en: 'You can find us on Facebook and Instagram as Tecnm – Escárcega.',
+          fr: 'Vous pouvez nous trouver sur Facebook et Instagram sous le nom de Tecnm – Escárcega.',
+          it: 'Ci può trovare su Facebook e Instagram come Tecnm – Escárcega.',
         },
         phonetics: {
-          es: 'Puede encontrarnos en Facebook e Instagram como Parque Jaguar.',
-          en: "/ju kæn faɪnd əs ɒn 'feɪsbʊk ənd 'ɪnstəgræm æz 'pɑːrkeɪ 'hæɡwɑːr/",
-          fr: "/vu puve nu tʁuve syʁ fejsbuk e ɛ̃stagʁam su lə nɔ̃ də paʁkə ʒagwaʁ/",
-          it: "/tʃi pwɔ tro'vare su 'fejsbuk e 'instagram 'kome 'parke ja'gwar/",
+          es: 'Puede encontrarnos en Facebook e Instagram como Tecnm – Escárcega.',
+          en: "/ju kæn faɪnd əs ɒn 'feɪsbʊk ənd 'ɪnstəgræm æz 'tɛknəm ɛs'kɑrsɛgə/",
+          fr: "/vu puve nu tʁuve syʁ fejsbuk e ɛ̃stagʁam su lə nɔ̃ də tɛknəm ɛskaʁsega/",
+          it: "/tʃi pwɔ tro'vare su 'fejsbuk e 'instagram 'kome 'tɛknəm eskar'tʃega/",
         },
         touristReplies: [
           {
@@ -490,41 +455,6 @@ export const phraseData: PhraseCategory[] = [
               en: 'Great, I\'ll follow you.',
               fr: 'Super, je vous suivrai.',
               it: 'Ottimo, vi seguirò.',
-            },
-          },
-        ],
-      },
-      {
-        id: 35,
-        translations: {
-          es: '¿Desea agregar propina?',
-          en: 'Would you like to add a tip?',
-          fr: 'Voulez-vous ajouter un pourboire ?',
-          it: 'Vuole aggiungere una mancia?',
-        },
-        phonetics: {
-          es: '¿Desea agregar propina?',
-          en: "/wʊd ju laɪk tu æd ə tɪp/",
-          fr: "/vule vu aʒute ɛ̃ puʁbwaʁ/",
-          it: "/'vwɔle ad'dʒundʒere 'una 'mantʃa/",
-        },
-        touristReplies: [
-          {
-            id: 3501,
-            translations: {
-              es: 'Sí, un 10 por ciento.',
-              en: 'Yes, 10 percent.',
-              fr: 'Oui, 10 pour cent.',
-              it: 'Sì, il 10 percento.',
-            },
-          },
-          {
-            id: 3502,
-            translations: {
-              es: 'No, gracias.',
-              en: 'No, thank you.',
-              fr: 'Non, merci.',
-              it: 'No, grazie.',
             },
           },
         ],
@@ -711,6 +641,41 @@ export const phraseData: PhraseCategory[] = [
         id: 'launch-platform',
         name: 'Plataforma de Lanzamiento',
         phrases: [
+          {
+            id: 62,
+            translations: {
+              es: '¿Cómo se siente?',
+              en: 'How are you feeling?',
+              fr: 'Comment vous sentez-vous ?',
+              it: 'Come si sente?',
+            },
+            phonetics: {
+              es: '¿Cómo se siente?',
+              en: "/haʊ ɑː juː ˈfiːlɪŋ/",
+              fr: "/kɔmɑ̃ vu sɑ̃te vu/",
+              it: "/'kome si 'sɛnte/",
+            },
+            touristReplies: [
+              {
+                id: 6201,
+                translations: {
+                  es: '¡Muy emocionado!',
+                  en: 'Very excited!',
+                  fr: 'Très excité !',
+                  it: 'Molto emozionato!',
+                },
+              },
+              {
+                id: 6202,
+                translations: {
+                  es: 'Un poco nervioso.',
+                  en: 'A little nervous.',
+                  fr: 'Un peu nerveux.',
+                  it: 'Un po\' nervoso.',
+                },
+              },
+            ],
+          },
           {
             id: 23,
             translations: {
@@ -951,6 +916,41 @@ export const phraseData: PhraseCategory[] = [
               },
             ],
           },
+           {
+            id: 63,
+            translations: {
+              es: 'Puede continuar con el recorrido subiendo estas escaleras.',
+              en: 'You can continue the tour by going up these stairs.',
+              fr: 'Vous pouvez continuer la visite en montant ces escaliers.',
+              it: 'Può continuare il tour salendo queste scale.',
+            },
+            phonetics: {
+              es: 'Puede continuar con el recorrido subiendo estas escaleras.',
+              en: "/ju kən kən'tɪnjuː ðə tʊə baɪ 'gəʊɪŋ ʌp ðiːz steəz/",
+              fr: "/vu puve kɔ̃tinɥe la vizit ɑ̃ mɔ̃tɑ̃ sez ɛskalje/",
+              it: "/pwɔ kontinu'are il tur sa'lɛndo 'kweste 'skale/",
+            },
+            touristReplies: [
+              {
+                id: 6301,
+                translations: {
+                  es: 'Gracias, ¿qué sigue ahora?',
+                  en: 'Thank you, what’s next?',
+                  fr: 'Merci, quelle est la suite ?',
+                  it: 'Grazie, cosa c\'è dopo?',
+                },
+              },
+              {
+                id: 6302,
+                translations: {
+                  es: 'De acuerdo, ¡vamos!',
+                  en: 'Okay, let’s go!',
+                  fr: 'D\'accord, allons-y !',
+                  it: 'Va bene, andiamo!',
+                },
+              },
+            ],
+          },
         ],
       },
     ],
@@ -1119,25 +1119,34 @@ export const phraseData: PhraseCategory[] = [
         {
           id: 43,
           translations: {
-            es: 'A su regreso, deje el kayak en el mismo lugar.',
-            en: 'When you return, leave the kayak in the same place.',
-            fr: 'À votre retour, laissez le kayak au même endroit.',
-            it: 'Al ritorno, lasci il kayak nello stesso posto.',
+            es: 'A su regreso, aquí le ayudamos a bajar del kayak.',
+            en: 'When you return, we will help you get off the kayak here.',
+            fr: 'À votre retour, nous vous aiderons à descendre du kayak ici.',
+            it: 'Al suo ritorno, la aiuteremo a scendere dal kayak qui.',
           },
           phonetics: {
-            es: 'A su regreso, deje el kayak en el mismo lugar.',
-            en: "/wɛn ju rɪ'tɜ:n li:v ðə 'kaiæk ɪn ðə seɪm pleɪs/",
-            fr: '/a vɔtʁ ʁətuʁ lɛse lə kajak o mɛm ɑ̃dʁwa/',
-            it: "/al ri'torno 'laʃʃi il 'kaiak 'nello 'stesso 'posto/",
+            es: 'A su regreso, aquí le ayudamos a bajar del kayak.',
+            en: "/wɛn ju rɪ'tɜ:n wi wɪl hɛlp ju gɛt ɒf ðə 'kaiæk hɪə/",
+            fr: '/a vɔtʁ ʁətuʁ nu vuz‿ɛdʁɔ̃ a desɑ̃dʁ dy kajak isi/',
+            it: "/al 'swo ri'torno la ajute'remo a 'ʃendere dal 'kaiak kwi/",
           },
           touristReplies: [
               {
                 id: 4301,
                 translations: {
-                  es: 'Perfecto.',
-                  en: 'Perfect.',
-                  fr: 'Parfait.',
-                  it: 'Perfetto.',
+                  es: 'Muchas gracias.',
+                  en: 'Thank you very much.',
+                  fr: 'Merci beaucoup.',
+                  it: 'Molte grazie.',
+                },
+              },
+               {
+                id: 4302,
+                translations: {
+                  es: 'Aprecio la ayuda.',
+                  en: 'I appreciate the help.',
+                  fr: 'J\'apprécie l\'aide.',
+                  it: 'Apprezzo l\'aiuto.',
                 },
               },
             ],
@@ -1197,32 +1206,6 @@ export const phraseData: PhraseCategory[] = [
                 en: 'Sure, I\'ll put it on now.',
                 fr: 'Bien sûr, je le mets tout de suite.',
                 it: 'Certo, lo metto subito.',
-              },
-            },
-          ],
-      },
-      {
-        id: 46,
-        translations: {
-          es: 'Mantenga siempre a la vista al guía del grupo.',
-          en: 'Always keep the group guide in sight.',
-          fr: 'Gardez toujours le guide du groupe en vue.',
-          it: 'Tenga sempre in vista la guida del gruppo.',
-        },
-        phonetics: {
-          es: 'Mantenga siempre a la vista al guía del grupo.',
-          en: "/'ɔ:lweız ki:p ðə gru:p gaɪd ɪn saɪt/",
-          fr: '/garde tuʒur lə gid dy grup ɑ̃ vy/',
-          it: "/'tenga 'sempre in 'vista la 'gwi:da del 'gruppo/",
-        },
-        touristReplies: [
-            {
-              id: 4601,
-              translations: {
-                es: 'De acuerdo, no me alejaré.',
-                en: 'Okay, I won\'t go far.',
-                fr: 'D\'accord, je ne m\'éloignerai pas.',
-                it: 'Va bene, non mi allontanerò.',
               },
             },
           ],
@@ -1471,16 +1454,16 @@ export const phraseData: PhraseCategory[] = [
       {
         id: 56,
         translations: {
-          es: 'No rebase a los demás participants.',
-          en: 'Do not overtake other riders.',
-          fr: 'Ne doublez pas les autres conducteurs.',
-          it: 'Non sorpassi gli altri partecipanti.',
+          es: 'No rebase a los demás participantes.',
+          en: 'Do not overtake other participants.',
+          fr: 'Ne doublez pas les autres participants.',
+          it: 'Non sorpassare gli altri partecipanti.',
         },
         phonetics: {
           es: 'No rebase a los demás participantes.',
-          en: "/du nɒt ˌəʊvə'teɪk ˈʌðə ˈraɪdəz/",
-          fr: '/nə duble pa lez otʁə kɔ̃dyktœʁ/',
-          it: "/non sor'passi ʎi 'altri partetʃi'panti/",
+          en: "/du nɒt ˌəʊvə'teɪk ˈʌðə pɑːˈtɪsɪpənts/",
+          fr: '/nə duble pa lez otʁə paʁtisipɑ̃/',
+          it: "/non sorpas'sare ʎi 'altri partetʃi'panti/",
         },
         touristReplies: [
             {
@@ -1490,6 +1473,15 @@ export const phraseData: PhraseCategory[] = [
                 en: 'Got it.',
                 fr: 'Compris.',
                 it: 'Capito.',
+              },
+            },
+            {
+              id: 5602,
+              translations: {
+                es: 'Me mantendré en mi lugar.',
+                en: 'I\'ll stay in my place.',
+                fr: 'Je resterai à ma place.',
+                it: 'Resterò al mio posto.',
               },
             },
           ],
@@ -1516,32 +1508,6 @@ export const phraseData: PhraseCategory[] = [
                 en: 'Yes, I will.',
                 fr: 'Oui, je le ferai.',
                 it: 'Sì, lo farò.',
-              },
-            },
-          ],
-      },
-      {
-        id: 58,
-        translations: {
-          es: 'Evite zonas con lodo o piedras sueltas.',
-          en: 'Avoid muddy or rocky areas.',
-          fr: 'Évitez les zones boueuses ou pierreuses.',
-          it: 'Eviti le zone fangose o rocciose.',
-        },
-        phonetics: {
-          es: 'Evite zonas con lodo o piedras sueltas.',
-          en: "/ə'vɔɪd 'mʌdi ɔ: 'rɒki 'eəriəz/",
-          fr: '/evite le zon buøz u pjɛʁøz/',
-          it: "/'eviti le 'tsone fan'go:ze o rot'tʃoze/",
-        },
-        touristReplies: [
-            {
-              id: 5801,
-              translations: {
-                es: 'Ok, gracias por el aviso.',
-                en: 'Okay, thanks for the heads-up.',
-                fr: 'D\'accord, merci pour l\'avertissement.',
-                it: 'Ok, grazie per l\'avviso.',
               },
             },
           ],

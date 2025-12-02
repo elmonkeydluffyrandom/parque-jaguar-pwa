@@ -44,9 +44,12 @@ const Marker = ({
 const markerPositions: Record<string, { top: string; left: string }> = {
   reception: { top: '48%', left: '92%' }, // R
   'zip-lining': { top: '50%', left: '50%' }, // T
-  kayak: { top: '45%', left: '80%' }, // K
+  kayak: { top: '65%', left: '50%' }, // K
   bicycle: { top: '35%', left: '68%' }, // B
   atv: { top: '35%', left: '42%' }, // C
+  cafeteria: { top: '80%', left: '80%' },
+  amphitheater: { top: '80%', left: '20%' },
+  restrooms: { top: '65%', left: '5%' },
 }
 
 export function Map() {

@@ -82,6 +82,15 @@ export const phraseData: PhraseCategory[] = [
               it: 'Salve! Parla inglese?',
             },
           },
+          {
+            id: 103,
+            translations: {
+              es: 'Gracias, estamos emocionados de estar aquí.',
+              en: 'Thank you, we are excited to be here.',
+              fr: 'Merci, nous sommes ravis d\'être ici.',
+              it: 'Grazie, siamo entusiasti di essere qui.',
+            },
+          },
         ],
       },
       {
@@ -117,6 +126,15 @@ export const phraseData: PhraseCategory[] = [
                 it: 'No, siamo già stati qui.',
               },
             },
+            {
+                id: 203,
+                translations: {
+                  es: 'Sí, ¿qué nos recomienda hacer?',
+                  en: 'Yes, what do you recommend we do?',
+                  fr: 'Oui, que nous recommandez-vous de faire ?',
+                  it: 'Sì, cosa ci consiglia di fare?',
+                },
+            },
           ],
       },
       {
@@ -150,6 +168,15 @@ export const phraseData: PhraseCategory[] = [
               en: 'What activities do you have?',
               fr: 'Quelles activités proposez-vous ?',
               it: 'Quali attività avete?',
+            },
+          },
+          {
+            id: 903,
+            translations: {
+              es: 'Gracias, ya tenemos un plan.',
+              en: 'Thanks, we already have a plan.',
+              fr: 'Merci, nous avons déjà un plan.',
+              it: 'Grazie, abbiamo già un piano.',
             },
           },
         ],
@@ -187,6 +214,15 @@ export const phraseData: PhraseCategory[] = [
               it: 'Sono interessato alla teleferica.',
             },
           },
+          {
+            id: 1003,
+            translations: {
+              es: '¿Hay algo para niños?',
+              en: 'Is there anything for children?',
+              fr: 'Y a-t-il quelque chose pour les enfants ?',
+              it: 'C\'è qualcosa per i bambini?',
+            },
+          },
         ],
       },
       {
@@ -220,6 +256,15 @@ export const phraseData: PhraseCategory[] = [
               en: 'Can I pay by card?',
               fr: 'Puis-je payer par carte ?',
               it: 'Posso pagare con la carta?',
+            },
+          },
+          {
+            id: 1103,
+            translations: {
+              es: 'Es un poco caro para mí.',
+              en: 'That\'s a bit expensive for me.',
+              fr: 'C\'est un peu cher pour moi.',
+              it: 'È un po\' caro per me.',
             },
           },
         ],
@@ -257,6 +302,15 @@ export const phraseData: PhraseCategory[] = [
               it: 'Che tipo di cibo servono?',
             },
           },
+          {
+            id: 1203,
+            translations: {
+              es: 'Perfecto, necesito un café.',
+              en: 'Perfect, I need a coffee.',
+              fr: 'Parfait, j\'ai besoin d\'un café.',
+              it: 'Perfetto, ho bisogno di un caffè.',
+            },
+          },
         ],
       },
       {
@@ -292,6 +346,15 @@ export const phraseData: PhraseCategory[] = [
               it: 'A cosa serve?',
             },
           },
+          {
+            id: 1303,
+            translations: {
+              es: 'Prefiero leerlo primero.',
+              en: 'I\'d rather read it first.',
+              fr: 'Je préfère le lire d\'abord.',
+              it: 'Preferisco leggerlo prima.',
+            },
+          },
         ],
       },
       {
@@ -316,6 +379,24 @@ export const phraseData: PhraseCategory[] = [
               en: 'Thanks, I\'ll use the one on the right.',
               fr: 'Merci, je vais à celui de droite.',
               it: 'Grazie, uso quello a destra.',
+            },
+          },
+          {
+            id: 1402,
+            translations: {
+              es: 'Entendido, gracias.',
+              en: 'Got it, thank you.',
+              fr: 'Compris, merci.',
+              it: 'Capito, grazie.',
+            },
+          },
+          {
+            id: 1403,
+            translations: {
+              es: '¿Hay alguno más cerca?',
+              en: 'Is there one closer?',
+              fr: 'Y en a-t-il un plus proche ?',
+              it: 'Ce n\'è uno più vicino?',
             },
           },
         ],
@@ -353,6 +434,15 @@ export const phraseData: PhraseCategory[] = [
               it: 'È sicuro lasciarli qui?',
             },
           },
+          {
+            id: 1503,
+            translations: {
+              es: 'Prefiero llevar mis cosas conmigo.',
+              en: 'I prefer to take my things with me.',
+              fr: 'Je préfère prendre mes affaires avec moi.',
+              it: 'Preferisco portare le mie cose con me.',
+            },
+          },
         ],
       },
       {
@@ -377,6 +467,24 @@ export const phraseData: PhraseCategory[] = [
               en: 'Thank you, we are very excited!',
               fr: 'Merci, nous sommes très excités !',
               it: 'Grazie, siamo molto emozionati!',
+            },
+          },
+          {
+            id: 1602,
+            translations: {
+              es: '¡Gracias! Lo haremos.',
+              en: 'Thank you! We will.',
+              fr: 'Merci ! Nous le ferons.',
+              it: 'Grazie! Lo faremo.',
+            },
+          },
+          {
+            id: 1603,
+            translations: {
+              es: 'Gracias por su amabilidad.',
+              en: 'Thank you for your kindness.',
+              fr: 'Merci pour votre gentillesse.',
+              it: 'Grazie per la sua gentilezza.',
             },
           },
         ],
@@ -405,6 +513,24 @@ export const phraseData: PhraseCategory[] = [
               it: 'Molto gentile, grazie.',
             },
           },
+          {
+            id: 1702,
+            translations: {
+              es: 'Lo tendré en cuenta.',
+              en: 'I\'ll keep that in mind.',
+              fr: 'Je le garderai à l\'esprit.',
+              it: 'Lo terrò a mente.',
+            },
+          },
+          {
+            id: 1703,
+            translations: {
+              es: 'Excelente servicio.',
+              en: 'Excellent service.',
+              fr: 'Excellent service.',
+              it: 'Servizio eccellente.',
+            },
+          },
         ],
       },
       {
@@ -431,6 +557,24 @@ export const phraseData: PhraseCategory[] = [
               it: 'Certo, quali sono?',
             },
           },
+          {
+            id: 3302,
+            translations: {
+              es: 'Lo haré, gracias por recordar.',
+              en: 'I will, thanks for the reminder.',
+              fr: 'Je le ferai, merci du rappel.',
+              it: 'Lo farò, grazie per avermelo ricordato.',
+            },
+          },
+          {
+            id: 3303,
+            translations: {
+              es: 'No uso mucho las redes sociales.',
+              en: 'I don\'t use social media much.',
+              fr: 'Je n\'utilise pas beaucoup les réseaux sociaux.',
+              it: 'Non uso molto i social media.',
+            },
+          },
         ],
       },
       {
@@ -455,6 +599,24 @@ export const phraseData: PhraseCategory[] = [
               en: 'Great, I\'ll follow you.',
               fr: 'Super, je vous suivrai.',
               it: 'Ottimo, vi seguirò.',
+            },
+          },
+          {
+            id: 3402,
+            translations: {
+              es: 'Gracias por la información.',
+              en: 'Thanks for the info.',
+              fr: 'Merci pour l\'info.',
+              it: 'Grazie per l\'informazione.',
+            },
+          },
+          {
+            id: 3403,
+            translations: {
+              es: '¿Tienen alguna promoción?',
+              en: 'Do you have any promotions?',
+              fr: 'Avez-vous des promotions ?',
+              it: 'Avete qualche promozione?',
             },
           },
         ],
@@ -490,6 +652,15 @@ export const phraseData: PhraseCategory[] = [
               en: 'I\'ll pay with cash.',
               fr: 'Je paierai en espèces.',
               it: 'Pagherò in contanti.',
+            },
+          },
+          {
+            id: 3603,
+            translations: {
+              es: '¿Aceptan dólares?',
+              en: 'Do you accept dollars?',
+              fr: 'Acceptez-vous les dollars ?',
+              it: 'Accettate dollari?',
             },
           },
         ],
@@ -529,6 +700,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Sì, va bene.',
                 },
               },
+              {
+                id: 1802,
+                translations: {
+                  es: 'Un momento, por favor.',
+                  en: 'One moment, please.',
+                  fr: 'Un instant, s\'il vous plaît.',
+                  it: 'Un momento, per favore.',
+                },
+              },
+              {
+                id: 1803,
+                translations: {
+                  es: '¿Es seguro?',
+                  en: 'Is it safe?',
+                  fr: 'Est-ce sécuritaire ?',
+                  it: 'È sicuro?',
+                },
+              },
             ],
           },
           {
@@ -553,6 +742,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Sure, go ahead.',
                   fr: 'Bien sûr, allez-y.',
                   it: 'Certo, prego.',
+                },
+              },
+              {
+                id: 1902,
+                translations: {
+                  es: '¿Está muy apretado?',
+                  en: 'Is it too tight?',
+                  fr: 'Est-ce trop serré ?',
+                  it: 'È troppo stretto?',
+                },
+              },
+              {
+                id: 1903,
+                translations: {
+                  es: 'Prefiero ajustarlo yo mismo.',
+                  en: 'I prefer to adjust it myself.',
+                  fr: 'Je préfère l\'ajuster moi-même.',
+                  it: 'Preferisco regolarlo da solo.',
                 },
               },
             ],
@@ -581,6 +788,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Va bene così?',
                 },
               },
+              {
+                id: 2002,
+                translations: {
+                  es: 'Creo que necesita un ajuste más.',
+                  en: 'I think it needs more adjustment.',
+                  fr: 'Je pense qu\'il faut l\'ajuster encore.',
+                  it: 'Penso che abbia bisogno di un\'altra regolazione.',
+                },
+              },
+              {
+                id: 2003,
+                translations: {
+                  es: 'Sí, se siente seguro.',
+                  en: 'Yes, it feels secure.',
+                  fr: 'Oui, ça semble sécurisé.',
+                  it: 'Sì, mi sento sicuro.',
+                },
+              },
             ],
           },
           {
@@ -607,6 +832,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Capito.',
                 },
               },
+              {
+                id: 2102,
+                translations: {
+                  es: 'De acuerdo, no lo haré.',
+                  en: 'Okay, I won\'t.',
+                  fr: 'D\'accord, je ne le ferai pas.',
+                  it: 'Va bene, non lo farò.',
+                },
+              },
+              {
+                id: 2103,
+                translations: {
+                  es: 'Gracias por la advertencia.',
+                  en: 'Thanks for the warning.',
+                  fr: 'Merci pour l\'avertissement.',
+                  it: 'Grazie per l\'avvertimento.',
+                },
+              },
             ],
           },
           {
@@ -631,6 +874,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'I appreciate that, thank you.',
                   fr: 'Je l\'apprécie, merci.',
                   it: 'Lo apprezzo, grazie.',
+                },
+              },
+              {
+                id: 2202,
+                translations: {
+                  es: 'La seguridad es primero.',
+                  en: 'Safety first.',
+                  fr: 'La sécurité avant tout.',
+                  it: 'La sicurezza prima di tutto.',
+                },
+              },
+              {
+                id: 2203,
+                translations: {
+                  es: 'Gracias por cuidarnos.',
+                  en: 'Thank you for taking care of us.',
+                  fr: 'Merci de prendre soin de nous.',
+                  it: 'Grazie per prendervi cura di noi.',
                 },
               },
             ],
@@ -674,6 +935,15 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Un po\' nervoso.',
                 },
               },
+              {
+                id: 6203,
+                translations: {
+                  es: '¡Listo para la aventura!',
+                  en: 'Ready for the adventure!',
+                  fr: 'Prêt pour l\'aventure !',
+                  it: 'Pronto per l\'avventura!',
+                },
+              },
             ],
           },
           {
@@ -698,6 +968,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Okay, I will wait.',
                   fr: 'D\'accord, j\'attendrai.',
                   it: 'Va bene, aspetterò.',
+                },
+              },
+              {
+                id: 2302,
+                translations: {
+                  es: '¿Cuánto tiempo debo esperar?',
+                  en: 'How long do I have to wait?',
+                  fr: 'Combien de temps dois-je attendre ?',
+                  it: 'Quanto devo aspettare?',
+                },
+              },
+              {
+                id: 2303,
+                translations: {
+                  es: 'No hay problema.',
+                  en: 'No problem.',
+                  fr: 'Pas de problème.',
+                  it: 'Nessun problema.',
                 },
               },
             ],
@@ -726,6 +1014,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Va bene, non salterò.',
                 },
               },
+              {
+                id: 2402,
+                translations: {
+                  es: 'Entendido, solo me dejo ir.',
+                  en: 'Got it, just let go.',
+                  fr: 'Compris, je me laisse juste aller.',
+                  it: 'Capito, mi lascio solo andare.',
+                },
+              },
+              {
+                id: 2403,
+                translations: {
+                  es: 'Gracias por la instrucción.',
+                  en: 'Thanks for the instruction.',
+                  fr: 'Merci pour l\'instruction.',
+                  it: 'Grazie per l\'istruzione.',
+                },
+              },
             ],
           },
           {
@@ -750,6 +1056,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Thank you, that\'s reassuring.',
                   fr: 'Merci, c\'est rassurant.',
                   it: 'Grazie, questo mi rassicura.',
+                },
+              },
+              {
+                id: 2502,
+                translations: {
+                  es: 'Sí, es mi primera vez. Estoy nervioso.',
+                  en: 'Yes, it\'s my first time. I\'m nervous.',
+                  fr: 'Oui, c\'est ma première fois. Je suis nerveux.',
+                  it: 'Sì, è la mia prima volta. Sono nervoso.',
+                },
+              },
+              {
+                id: 2503,
+                translations: {
+                  es: 'Confío en ustedes.',
+                  en: 'I trust you.',
+                  fr: 'Je vous fais confiance.',
+                  it: 'Mi fido di voi.',
                 },
               },
             ],
@@ -778,6 +1102,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Ricevuto.',
                 },
               },
+              {
+                id: 2602,
+                translations: {
+                  es: '¿Hay alguna otra posición que deba saber?',
+                  en: 'Is there any other position I should know?',
+                  fr: 'Y a-t-il une autre position que je devrais connaître ?',
+                  it: 'C\'è qualche altra posizione che dovrei sapere?',
+                },
+              },
+              {
+                id: 2603,
+                translations: {
+                  es: 'Piernas juntas, entendido.',
+                  en: 'Legs together, got it.',
+                  fr: 'Jambes serrées, compris.',
+                  it: 'Gambe unite, capito.',
+                },
+              },
             ],
           },
           {
@@ -802,6 +1144,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Thank you!',
                   fr: 'Merci !',
                   it: 'Grazie!',
+                },
+              },
+              {
+                id: 2702,
+                translations: {
+                  es: '¡Allá voy!',
+                  en: 'Here I go!',
+                  fr: 'J\'y vais !',
+                  it: 'Ci vado!',
+                },
+              },
+              {
+                id: 2703,
+                translations: {
+                  es: '¡Nos vemos abajo!',
+                  en: 'See you at the bottom!',
+                  fr: 'On se voit en bas !',
+                  it: 'Ci vediamo in fondo!',
                 },
               },
             ],
@@ -836,6 +1196,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Sì, sto bene. È stato incredibile!',
                 },
               },
+              {
+                id: 2802,
+                translations: {
+                  es: 'Sí, solo un poco mareado.',
+                  en: 'Yes, just a little dizzy.',
+                  fr: 'Oui, juste un peu étourdi.',
+                  it: 'Sì, solo un po\' di vertigini.',
+                },
+              },
+              {
+                id: 2803,
+                translations: {
+                  es: '¡Quiero hacerlo de nuevo!',
+                  en: 'I want to do it again!',
+                  fr: 'Je veux le refaire !',
+                  it: 'Voglio farlo di nuovo!',
+                },
+              },
             ],
           },
           {
@@ -860,6 +1238,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Yes, I loved it!',
                   fr: 'Oui, j\'ai adoré !',
                   it: 'Sì, mi è piaciuto tantissimo!',
+                },
+              },
+              {
+                id: 2902,
+                translations: {
+                  es: 'Fue una de las mejores experiencias.',
+                  en: 'It was one of the best experiences.',
+                  fr: 'C\'était l\'une des meilleures expériences.',
+                  it: 'È stata una delle migliori esperienze.',
+                },
+              },
+              {
+                id: 2903,
+                translations: {
+                  es: 'Fue bueno, pero me dio miedo.',
+                  en: 'It was good, but it scared me.',
+                  fr: 'C\'était bien, mais ça m\'a fait peur.',
+                  it: 'È stato bello, ma mi ha spaventato.',
                 },
               },
             ],
@@ -888,6 +1284,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Grazie a voi. È stato fantastico!',
                 },
               },
+              {
+                id: 3002,
+                translations: {
+                  es: 'El personal es muy amable.',
+                  en: 'The staff is very friendly.',
+                  fr: 'Le personnel est très sympathique.',
+                  it: 'Il personale è molto cordiale.',
+                },
+              },
+              {
+                id: 3003,
+                translations: {
+                  es: 'Definitivamente regresaré.',
+                  en: 'I will definitely come back.',
+                  fr: 'Je reviendrai certainement.',
+                  it: 'Tornerò sicuramente.',
+                },
+              },
             ],
           },
           {
@@ -912,6 +1326,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Yes, thanks. I need a break.',
                   fr: 'Oui, merci. J\'ai besoin d\'une pause.',
                   it: 'Sì, grazie. Ho bisogno di una pausa.',
+                },
+              },
+              {
+                id: 3102,
+                translations: {
+                  es: 'Gracias, tomaré un poco de agua.',
+                  en: 'Thank you, I\'ll have some water.',
+                  fr: 'Merci, je vais prendre un peu d\'eau.',
+                  it: 'Grazie, prenderò un po\' d\'acqua.',
+                },
+              },
+              {
+                id: 3103,
+                translations: {
+                  es: 'Estoy listo para seguir.',
+                  en: 'I\'m ready to continue.',
+                  fr: 'Je suis prêt à continuer.',
+                  it: 'Sono pronto a continuare.',
                 },
               },
             ],
@@ -949,6 +1381,15 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Va bene, andiamo!',
                 },
               },
+              {
+                id: 6303,
+                translations: {
+                  es: '¿Hay un ascensor?',
+                  en: 'Is there an elevator?',
+                  fr: 'Y a-t-il un ascenseur ?',
+                  it: 'C\'è un ascensore?',
+                },
+              },
             ],
           },
         ],
@@ -984,6 +1425,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Va bene.',
                 },
               },
+              {
+                id: 3702,
+                translations: {
+                  es: 'Ya me lo puse.',
+                  en: 'I already put it on.',
+                  fr: 'Je l\'ai déjà mis.',
+                  it: 'L\'ho già indossato.',
+                },
+              },
+              {
+                id: 3703,
+                translations: {
+                  es: '¿Me ayuda a ajustarlo?',
+                  en: 'Can you help me adjust it?',
+                  fr: 'Pouvez-vous m\'aider à l\'ajuster ?',
+                  it: 'Mi può aiutare a regolarlo?',
+                },
+              },
             ],
         },
         {
@@ -1010,6 +1469,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Capito, resterò vicino.',
                 },
               },
+              {
+                id: 3802,
+                translations: {
+                  es: '¿Qué tan lejos puedo ir?',
+                  en: 'How far can I go?',
+                  fr: 'Jusqu\'où puis-je aller ?',
+                  it: 'Quanto lontano posso andare?',
+                },
+              },
+              {
+                id: 3803,
+                translations: {
+                  es: 'No se preocupe.',
+                  en: 'Don\'t worry.',
+                  fr: 'Ne vous inquiétez pas.',
+                  it: 'Non si preoccupi.',
+                },
+              },
             ],
         },
         {
@@ -1030,10 +1507,28 @@ export const phraseData: PhraseCategory[] = [
               {
                 id: 3901,
                 translations: {
-                  es: 'Así está bien?',
+                  es: '¿Así está bien?',
                   en: 'Like this?',
                   fr: 'Comme ça ?',
                   it: 'Così va bene?',
+                },
+              },
+              {
+                id: 3902,
+                translations: {
+                  es: 'Es más difícil de lo que parece.',
+                  en: 'It\'s harder than it looks.',
+                  fr: 'C\'est plus difficile que ça en a l\'air.',
+                  it: 'È più difficile di quanto sembri.',
+                },
+              },
+              {
+                id: 3903,
+                translations: {
+                  es: 'Estoy aprendiendo.',
+                  en: 'I am learning.',
+                  fr: 'J\'apprends.',
+                  it: 'Sto imparando.',
                 },
               },
             ],
@@ -1062,6 +1557,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Sì, starò attento.',
                 },
               },
+              {
+                id: 4002,
+                translations: {
+                  es: 'Entendido, distancia de seguridad.',
+                  en: 'Got it, safe distance.',
+                  fr: 'Compris, distance de sécurité.',
+                  it: 'Capito, distanza di sicurezza.',
+                },
+              },
+              {
+                id: 4003,
+                translations: {
+                  es: 'Gracias por el consejo.',
+                  en: 'Thanks for the tip.',
+                  fr: 'Merci pour le conseil.',
+                  it: 'Grazie per il consiglio.',
+                },
+              },
             ],
         },
         {
@@ -1088,6 +1601,24 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Ok, grazie.',
                 },
               },
+              {
+                id: 4102,
+                translations: {
+                  es: '¿Vendrán a ayudarme?',
+                  en: 'Will you come to help me?',
+                  fr: 'Viendrez-vous m\'aider ?',
+                  it: 'Verrete ad aiutarmi?',
+                },
+              },
+              {
+                id: 4103,
+                translations: {
+                  es: 'Espero no necesitarlo.',
+                  en: 'I hope I don\'t need it.',
+                  fr: 'J\'espère ne pas en avoir besoin.',
+                  it: 'Spero di non averne bisogno.',
+                },
+              },
             ],
         },
         {
@@ -1112,6 +1643,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'Understood.',
                   fr: 'Compris.',
                   it: 'Capito.',
+                },
+              },
+              {
+                id: 4202,
+                translations: {
+                  es: 'Haré lo posible.',
+                  en: 'I\'ll do my best.',
+                  fr: 'Je ferai de mon mieux.',
+                  it: 'Farò del mio meglio.',
+                },
+              },
+              {
+                id: 4203,
+                translations: {
+                  es: 'Parece que todos van por su lado.',
+                  en: 'It seems everyone is going their own way.',
+                  fr: 'On dirait que tout le monde va de son côté.',
+                  it: 'Sembra che ognuno vada per la sua strada.',
                 },
               },
             ],
@@ -1149,6 +1698,15 @@ export const phraseData: PhraseCategory[] = [
                   it: 'Apprezzo l\'aiuto.',
                 },
               },
+              {
+                id: 4303,
+                translations: {
+                  es: '¿Puedo quedarme más tiempo?',
+                  en: 'Can I stay longer?',
+                  fr: 'Puis-je rester plus longtemps ?',
+                  it: 'Posso restare più a lungo?',
+                },
+              },
             ],
         },
         {
@@ -1173,6 +1731,24 @@ export const phraseData: PhraseCategory[] = [
                   en: 'It was very relaxing!',
                   fr: 'C\'était très relaxant !',
                   it: 'È stato molto rilassante!',
+                },
+              },
+              {
+                id: 4402,
+                translations: {
+                  es: 'Gracias, me divertí.',
+                  en: 'Thank you, I had fun.',
+                  fr: 'Merci, je me suis amusé.',
+                  it: 'Grazie, mi sono divertito.',
+                },
+              },
+              {
+                id: 4403,
+                translations: {
+                  es: 'El lago es hermoso.',
+                  en: 'The lake is beautiful.',
+                  fr: 'Le lac est magnifique.',
+                  it: 'Il lago è bellissimo.',
                 },
               },
             ],
@@ -1208,6 +1784,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Certo, lo metto subito.',
               },
             },
+            {
+                id: 4502,
+                translations: {
+                  es: 'Entendido, seguridad primero.',
+                  en: 'Got it, safety first.',
+                  fr: 'Compris, la sécurité d\'abord.',
+                  it: 'Capito, la sicurezza prima di tutto.',
+                },
+            },
+            {
+                id: 4503,
+                translations: {
+                  es: '¿Es obligatorio?',
+                  en: 'Is it mandatory?',
+                  fr: 'Est-ce obligatoire ?',
+                  it: 'È obbligatorio?',
+                },
+            },
           ],
       },
       {
@@ -1233,6 +1827,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'Compris, je resterai sur le chemin.',
                 it: 'Capito, seguirò il sentiero.',
               },
+            },
+            {
+                id: 4702,
+                translations: {
+                  es: '¿A dónde lleva el sendero?',
+                  en: 'Where does the trail lead?',
+                  fr: 'Où mène le sentier ?',
+                  it: 'Dove porta il sentiero?',
+                },
+            },
+            {
+                id: 4703,
+                translations: {
+                  es: 'Ok, no me desviaré.',
+                  en: 'Okay, I won\'t wander off.',
+                  fr: 'D\'accord, je ne m\'égarerai pas.',
+                  it: 'Ok, non mi allontanerò.',
+                },
             },
           ],
       },
@@ -1260,6 +1872,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Sì, andrò piano.',
               },
             },
+            {
+                id: 4802,
+                translations: {
+                  es: 'Entendido, sin carreras.',
+                  en: 'Got it, no racing.',
+                  fr: 'Compris, pas de course.',
+                  it: 'Capito, niente corse.',
+                },
+            },
+            {
+                id: 4803,
+                translations: {
+                  es: '¿Cuál es el límite de velocidad?',
+                  en: 'What is the speed limit?',
+                  fr: 'Quelle est la limite de vitesse ?',
+                  it: 'Qual è il limite di velocità?',
+                },
+            },
           ],
       },
       {
@@ -1285,6 +1915,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'D\'accord, je le ferai.',
                 it: 'Ok, lo farò.',
               },
+            },
+            {
+                id: 4902,
+                translations: {
+                  es: 'Gracias por la indicación.',
+                  en: 'Thanks for the instruction.',
+                  fr: 'Merci pour l\'indication.',
+                  it: 'Grazie per l\'indicazione.',
+                },
+            },
+            {
+                id: 4903,
+                translations: {
+                  es: '¿Hay personal cerca?',
+                  en: 'Is there staff nearby?',
+                  fr: 'Y a-t-il du personnel à proximité ?',
+                  it: 'C\'è personale nelle vicinanze?',
+                },
             },
           ],
       },
@@ -1312,6 +1960,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Non si preoccupi, non lo farò.',
               },
             },
+            {
+                id: 5002,
+                translations: {
+                  es: 'Claro, cuidaré el parque.',
+                  en: 'Of course, I\'ll take care of the park.',
+                  fr: 'Bien sûr, je prendrai soin du parc.',
+                  it: 'Certo, mi prenderò cura del parco.',
+                },
+            },
+            {
+                id: 5003,
+                translations: {
+                  es: '¿Dónde puedo tirar la basura?',
+                  en: 'Where can I throw away the trash?',
+                  fr: 'Où puis-je jeter les déchets ?',
+                  it: 'Dove posso buttare la spazzatura?',
+                },
+            },
           ],
       },
       {
@@ -1338,6 +2004,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Va bene.',
               },
             },
+            {
+                id: 5102,
+                translations: {
+                  es: 'Entendido, la dejaré aquí.',
+                  en: 'Got it, I\'ll leave it here.',
+                  fr: 'Compris, je la laisserai ici.',
+                  it: 'Capito, la lascerò qui.',
+                },
+            },
+            {
+                id: 5103,
+                translations: {
+                  es: 'Gracias por el paseo.',
+                  en: 'Thanks for the ride.',
+                  fr: 'Merci pour la balade.',
+                  it: 'Grazie per il giro.',
+                },
+            },
           ],
       },
       {
@@ -1363,6 +2047,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'C\'était une super balade !',
                 it: 'È stato un bel giro!',
               },
+            },
+            {
+                id: 5202,
+                translations: {
+                  es: 'Sí, fue muy divertido.',
+                  en: 'Yes, it was a lot of fun.',
+                  fr: 'Oui, c\'était très amusant.',
+                  it: 'Sì, è stato molto divertente.',
+                },
+            },
+            {
+                id: 5203,
+                translations: {
+                  es: 'Gracias a ustedes.',
+                  en: 'Thank you.',
+                  fr: 'Merci à vous.',
+                  it: 'Grazie a voi.',
+                },
             },
           ],
       },
@@ -1397,6 +2099,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Sì, ce l\'ho.',
               },
             },
+            {
+                id: 5302,
+                translations: {
+                  es: 'Claro, seguridad ante todo.',
+                  en: 'Of course, safety first.',
+                  fr: 'Bien sûr, la sécurité d\'abord.',
+                  it: 'Certo, la sicurezza prima di tutto.',
+                },
+            },
+            {
+                id: 5303,
+                translations: {
+                  es: '¿Hay guantes también?',
+                  en: 'Are there gloves too?',
+                  fr: 'Y a-t-il aussi des gants ?',
+                  it: 'Ci sono anche i guanti?',
+                },
+            },
           ],
       },
       {
@@ -1423,6 +2143,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Capito, andrò piano.',
               },
             },
+            {
+                id: 5402,
+                translations: {
+                  es: 'No hay prisa, solo quiero disfrutar.',
+                  en: 'No rush, I just want to enjoy.',
+                  fr: 'Pas de précipitation, je veux juste profiter.',
+                  it: 'Nessuna fretta, voglio solo godermi il momento.',
+                },
+            },
+            {
+                id: 5403,
+                translations: {
+                  es: '¿Puedo ir más rápido en alguna parte?',
+                  en: 'Can I go faster somewhere?',
+                  fr: 'Puis-je aller plus vite quelque part ?',
+                  it: 'Posso andare più veloce da qualche parte?',
+                },
+            },
           ],
       },
       {
@@ -1448,6 +2186,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'D\'accord, je ferai attention.',
                 it: 'Va bene, starò attento.',
               },
+            },
+            {
+                id: 5502,
+                translations: {
+                  es: 'Entendido, conducción segura.',
+                  en: 'Understood, safe driving.',
+                  fr: 'Compris, conduite prudente.',
+                  it: 'Capito, guida sicura.',
+                },
+            },
+            {
+                id: 5503,
+                translations: {
+                  es: 'Gracias por la advertencia.',
+                  en: 'Thanks for the warning.',
+                  fr: 'Merci pour l\'avertissement.',
+                  it: 'Grazie per l\'avvertimento.',
+                },
             },
           ],
       },
@@ -1484,6 +2240,15 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Resterò al mio posto.',
               },
             },
+            {
+                id: 5603,
+                translations: {
+                  es: 'Ok, seguiré al grupo.',
+                  en: 'Okay, I\'ll follow the group.',
+                  fr: 'D\'accord, je suivrai le groupe.',
+                  it: 'Ok, seguirò il gruppo.',
+                },
+            },
           ],
       },
       {
@@ -1509,6 +2274,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'Oui, je le ferai.',
                 it: 'Sì, lo farò.',
               },
+            },
+            {
+                id: 5702,
+                translations: {
+                  es: 'Entendido, ambas manos.',
+                  en: 'Got it, both hands.',
+                  fr: 'Compris, les deux mains.',
+                  it: 'Capito, entrambe le mani.',
+                },
+            },
+            {
+                id: 5703,
+                translations: {
+                  es: '¿Puedo tomar fotos?',
+                  en: 'Can I take photos?',
+                  fr: 'Puis-je prendre des photos ?',
+                  it: 'Posso fare foto?',
+                },
             },
           ],
       },
@@ -1536,6 +2319,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Va bene.',
               },
             },
+            {
+                id: 5902,
+                translations: {
+                  es: 'Entendido, no intentaré arreglarla.',
+                  en: 'Got it, I won\'t try to fix it.',
+                  fr: 'Compris, je n\'essaierai pas de le réparer.',
+                  it: 'Capito, non proverò a ripararlo.',
+                },
+            },
+            {
+                id: 5903,
+                translations: {
+                  es: 'Espero que no se detenga.',
+                  en: 'I hope it doesn\'t stop.',
+                  fr: 'J\'espère qu\'il ne s\'arrêtera pas.',
+                  it: 'Spero che non si fermi.',
+                },
+            },
           ],
       },
       {
@@ -1562,6 +2363,24 @@ export const phraseData: PhraseCategory[] = [
                 it: 'Non lo farò.',
               },
             },
+            {
+                id: 6002,
+                translations: {
+                  es: 'Claro, hay que cuidar la naturaleza.',
+                  en: 'Of course, we must take care of nature.',
+                  fr: 'Bien sûr, il faut prendre soin de la nature.',
+                  it: 'Certo, bisogna prendersi cura della natura.',
+                },
+            },
+            {
+                id: 6003,
+                translations: {
+                  es: '¿Hay basureros en el camino?',
+                  en: 'Are there trash cans along the way?',
+                  fr: 'Y a-t-il des poubelles en chemin ?',
+                  it: 'Ci sono cestini lungo il percorso?',
+                },
+            },
           ],
       },
       {
@@ -1587,6 +2406,24 @@ export const phraseData: PhraseCategory[] = [
                 fr: 'C\'était très excitant !',
                 it: 'È stato molto emozionante!',
               },
+            },
+            {
+                id: 6102,
+                translations: {
+                  es: 'Gracias, la pasé genial.',
+                  en: 'Thanks, I had a great time.',
+                  fr: 'Merci, j\'ai passé un super moment.',
+                  it: 'Grazie, mi sono divertito molto.',
+                },
+            },
+            {
+                id: 6103,
+                translations: {
+                  es: '¿Podemos dar otra vuelta?',
+                  en: 'Can we go for another round?',
+                  fr: 'Pouvons-nous faire un autre tour ?',
+                  it: 'Possiamo fare un altro giro?',
+                },
             },
           ],
       },

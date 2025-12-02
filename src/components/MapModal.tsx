@@ -20,7 +20,7 @@ export function MapModal() {
           <span className="hidden sm:inline-block ml-2">Mapa</span>
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+      <DialogContent className="max-w-3xl w-[90%] max-h-[90vh] overflow-y-auto rounded-lg">
         <DialogHeader>
           <DialogTitle>Mapa del Parque Jaguar</DialogTitle>
           <DialogDescription>

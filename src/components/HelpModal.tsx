@@ -18,7 +18,7 @@ export function HelpModal() {
           <span className="hidden sm:inline-block ml-2">Ayuda</span>
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-md sm:max-w-lg">
+      <DialogContent className="max-w-md sm:max-w-lg w-[90%] rounded-lg">
         <DialogHeader>
           <DialogTitle>¿Cómo usar la aplicación Parque Jaguar?</DialogTitle>
           <DialogDescription>

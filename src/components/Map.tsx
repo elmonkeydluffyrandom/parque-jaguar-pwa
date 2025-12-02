@@ -16,7 +16,7 @@ const Marker = ({
   category,
   style,
 }: {
-  category: PhraseCategory
+  category: { name: string; icon: React.ComponentType<{ className?: string }> }
   style: React.CSSProperties
 }) => {
   const Icon = category.icon
@@ -24,11 +24,11 @@ const Marker = ({
     <TooltipProvider>
       <Tooltip delayDuration={100}>
         <TooltipTrigger
-          className="absolute flex h-10 w-10 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg transition-transform hover:scale-110"
+          className="absolute flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg transition-transform hover:scale-110 md:h-10 md:w-10"
           style={style}
           aria-label={category.name}
         >
-          <Icon className="h-5 w-5 text-primary-foreground" />
+          <Icon className="h-4 w-4 text-primary-foreground md:h-5 md:w-5" />
         </TooltipTrigger>
         <TooltipContent
           side="top"
@@ -41,13 +41,20 @@ const Marker = ({
   )
 }
 
-const markerPositions: Record<string, { top: string; left: string }> = {
-  reception: { top: '80%', left: '88%' },      // R
-  'zip-lining': { top: '58%', left: '42%' },   // T
-  kayak: { top: '65%', left: '76%' },          // K
-  bicycle: { top: '40%', left: '68%' },        // B
-  atv: { top: '40%', left: '38%' },            // C
-}
+const categoryInfo = phraseData.reduce((acc, category) => {
+  acc[category.id] = { name: category.name, icon: category.icon };
+  return acc;
+}, {} as Record<string, { name: string, icon: React.ComponentType<{ className?: string }> }>);
+
+
+const puntosDeInteres = [
+  { id: 'reception', position: { top: '80%', left: '88%' } },     // R
+  { id: 'zip-lining', position: { top: '58%', left: '42%' } },  // T
+  { id: 'kayak', position: { top: '65%', left: '76%' } },         // K
+  { id: 'bicycle', position: { top: '40%', left: '68%' } },       // B
+  { id: 'atv', position: { top: '40%', left: '38%' } },           // C
+];
+
 
 export function Map() {
   const mapImage = {
@@ -67,16 +74,18 @@ export function Map() {
         height={mapImage.height}
         className="h-auto w-full"
         data-ai-hint={mapImage.hint}
+        priority
       />
 
-      {phraseData.map((category) => {
-        const position = markerPositions[category.id]
-        if (!position) return null
+      {puntosDeInteres.map((punto) => {
+        const category = categoryInfo[punto.id];
+        if (!category) return null;
+        
         return (
           <Marker
-            key={category.id}
+            key={punto.id}
             category={category}
-            style={{ top: position.top, left: position.left }}
+            style={{ top: punto.position.top, left: punto.position.left }}
           />
         )
       })}

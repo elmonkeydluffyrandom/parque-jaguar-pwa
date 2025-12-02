@@ -40,8 +40,8 @@ export function PhraseCard({ phrase }: Props) {
         <AccordionContent>
           <ul className="space-y-3 pt-2">
             {replies.map((reply) => (
-              <li key={reply.id} className="text-sm flex justify-between items-center">
-                <div>
+              <li key={reply.id} className="text-sm flex flex-col items-start gap-2 sm:flex-row sm:justify-between sm:items-center">
+                <div className='flex-grow'>
                   <div className="font-medium text-foreground">{reply.translations[activeLang]}</div>
                   <div className="text-muted-foreground">{reply.translations['es']}</div>
                 </div>
@@ -65,11 +65,11 @@ export function PhraseCard({ phrase }: Props) {
       <CardContent className="flex flex-1 flex-col justify-between">
         <div>
           <div className="flex items-center justify-between rounded-lg bg-muted/50 p-3 sm:p-4">
-            <div className="flex items-center gap-3 sm:gap-4">
+            <div className="flex items-center gap-3 sm:gap-4 flex-1 min-w-0">
               <ActiveFlag />
-              <div>
-                <p className="font-semibold">{phrase.translations[activeLang]}</p>
-                <p className="text-sm text-muted-foreground font-code">
+              <div className='flex-1 min-w-0'>
+                <p className="font-semibold truncate">{phrase.translations[activeLang]}</p>
+                <p className="text-sm text-muted-foreground font-code truncate">
                   {phrase.phonetics[activeLang]}
                 </p>
               </div>
@@ -89,9 +89,7 @@ export function PhraseCard({ phrase }: Props) {
                 key={lang}
                 variant={activeLang === lang ? 'default' : 'outline'}
                 onClick={() => setActiveLang(lang)}
-                className={cn("w-full justify-center gap-2", {
-                  'sm:w-1/3': languages.length === 3
-                })}
+                className="w-full sm:flex-1 justify-center"
               >
                 <LangFlag />
                 <span>{languageDetails[lang].name}</span>

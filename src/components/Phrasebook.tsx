@@ -22,9 +22,9 @@ export function Phrasebook() {
     <Tabs defaultValue={displayableCategories[0].id} className="w-full">
       <TabsList className="grid h-auto w-full grid-cols-2 rounded-lg sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
         {displayableCategories.map((category) => (
-          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center gap-2 text-xs sm:text-sm">
+          <TabsTrigger key={category.id} value={category.id} className="flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm">
             <category.icon className="h-5 w-5" />
-            <span className="font-headline">{category.name}</span>
+            <span className="font-headline text-center">{category.name}</span>
           </TabsTrigger>
         ))}
       </TabsList>
@@ -44,7 +44,7 @@ export function Phrasebook() {
             <Accordion type="single" collapsible className="w-full space-y-4">
               {category.subCategories.map((subCategory) => (
                 <AccordionItem key={subCategory.id} value={subCategory.id} className="rounded-lg border bg-card px-4">
-                   <AccordionTrigger className="text-lg font-headline hover:no-underline">
+                   <AccordionTrigger className="text-lg font-headline hover:no-underline text-left">
                     {subCategory.name}
                   </AccordionTrigger>
                   <AccordionContent>

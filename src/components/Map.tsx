@@ -51,11 +51,11 @@ const Marker = ({
 }
 
 const puntosDeInteres = [
-  { id: 'reception', position: { top: '33%', left: '85%' } },
-  { id: 'zip-lining', position: { top: '48%', left: '50%' } },
-  { id: 'kayak', position: { top: '55%', left: '77%' } },
-  { id: 'bicycle', position: { top: '69%', left: '55%' } },
-  { id: 'atv', position: { top: '69%', left: '45%' } },
+  { id: 'reception', position: { top: '50%', left: '95%' } },     // R
+  { id: 'zip-lining', position: { top: '50%', left: '60%' } },  // T
+  { id: 'kayak', position: { top: '42%', left: '82%' } },         // K
+  { id: 'bicycle', position: { top: '25%', left: '68%' } },       // B
+  { id: 'atv', position: { top: '25%', left: '59%' } },           // C
 ];
 
 const categoryInfo = phraseData.reduce((acc, category) => {

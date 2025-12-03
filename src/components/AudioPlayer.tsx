@@ -13,9 +13,8 @@ export function AudioPlayer({ text, lang }: Props) {
   const { toast } = useToast()
 
   const playAudio = () => {
-    const isSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
-
-    if (!isSupported) {
+    // Primero, verifica si la API es compatible con el navegador.
+    if (typeof window === 'undefined' || !window.speechSynthesis) {
       toast({
         variant: "destructive",
         title: "Audio no soportado",
@@ -24,21 +23,14 @@ export function AudioPlayer({ text, lang }: Props) {
       return
     }
 
-    // Cancelar cualquier síntesis en curso para evitar conflictos.
+    // Detiene cualquier locución que esté en curso para evitar superposiciones.
     window.speechSynthesis.cancel()
-    
-    // "Despertar" la API en algunos navegadores móviles obteniendo las voces.
-    const voices = window.speechSynthesis.getVoices();
 
+    // Crea una nueva instancia de la locución.
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang
-    
-    // Asignar una voz si está disponible para el idioma.
-    const selectedVoice = voices.find(voice => voice.lang === lang)
-    if (selectedVoice) {
-      utterance.voice = selectedVoice
-    }
 
+    // Inicia la locución. Esta acción está directamente ligada al clic del usuario.
     window.speechSynthesis.speak(utterance)
   }
 
@@ -49,7 +41,7 @@ export function AudioPlayer({ text, lang }: Props) {
       onClick={playAudio} 
       aria-label="Escuchar pronunciación"
     >
-      <Volume2 className="h-5 w-5 text-muted-foreground transition-colors hover:text-accent" />
+      <Volume2 className="h-5 w-5 text-muted-foreground transition-colors hover:text-accent-foreground" />
     </Button>
   )
 }

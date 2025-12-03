@@ -66,7 +66,7 @@ const categoryInfo = phraseData.reduce((acc, category) => {
 
 export function Map() {
   const mapImage = {
-    src: placeholderImages.parkMap.src,
+    src: '/map.png',
     alt: placeholderImages.parkMap.alt,
     width: placeholderImages.parkMap.width,
     height: placeholderImages.parkMap.height,

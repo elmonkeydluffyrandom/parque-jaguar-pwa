@@ -54,8 +54,13 @@ export function AudioPlayer({ text, lang }: Props) {
       // This is the key: calling getVoices() as a result of a user click
       // is what "unlocks" the API on many mobile browsers.
       window.speechSynthesis.getVoices();
-      setSpeechApiReady(true);
-      setTimeout(() => setIsPlaying(false), 500); // Hide loader after a short delay
+      
+      // We use a small timeout to give the browser time to process getVoices()
+      // and then we allow the user to click again to play.
+      setTimeout(() => {
+        setSpeechApiReady(true);
+        setIsPlaying(false);
+      }, 300); // 300ms delay
       return; // Don't try to speak on this first "wake up" click.
     }
     
@@ -67,10 +72,21 @@ export function AudioPlayer({ text, lang }: Props) {
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang
 
-    // This helps manage the visual state of the button
+    // These events help manage the visual state of the button
     utterance.onstart = () => setIsPlaying(true);
     utterance.onend = () => setIsPlaying(false);
-    utterance.onerror = () => setIsPlaying(false);
+    utterance.onerror = (event) => {
+        // Fallback for some browsers that might have issues after the "wake up" call
+        console.error("Speech synthesis error:", event.error);
+        setIsPlaying(false);
+        // If an error occurs, we reset the ready state to try the wake-up call again next time.
+        setSpeechApiReady(false);
+        toast({
+          variant: "destructive",
+          title: "Error de audio",
+          description: "No se pudo reproducir la pronunciación. Por favor, inténtalo de nuevo.",
+        })
+    };
 
     // 3. Speak.
     window.speechSynthesis.speak(utterance)

@@ -8,9 +8,35 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover"
 import { cn } from '@/lib/utils'
 import { phraseData, type PhraseCategory } from '@/lib/phrases'
 import placeholderImages from '@/lib/placeholder-images.json'
+import { useIsMobile } from '@/hooks/use-mobile'
+
+const MarkerButton = ({
+  category,
+  style,
+}: {
+  category: { name: string; icon: React.ComponentType<{ className?: string }> }
+  style: React.CSSProperties
+}) => {
+  const Icon = category.icon;
+  return (
+    <button
+      className="absolute flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg transition-transform hover:scale-110 md:h-10 md:w-10"
+      style={style}
+      aria-label={category.name}
+    >
+      <Icon className="h-4 w-4 text-primary-foreground md:h-5 md:w-5" />
+    </button>
+  );
+};
+
 
 const Marker = ({
   category,
@@ -19,16 +45,26 @@ const Marker = ({
   category: { name: string; icon: React.ComponentType<{ className?: string }> }
   style: React.CSSProperties
 }) => {
-  const Icon = category.icon
+  const isMobile = useIsMobile();
+
+  if (isMobile) {
+    return (
+        <Popover>
+            <PopoverTrigger asChild>
+                <MarkerButton category={category} style={style} />
+            </PopoverTrigger>
+            <PopoverContent side="top" className="w-auto border-primary bg-primary text-primary-foreground p-2">
+                <p className="font-bold text-sm">{category.name}</p>
+            </PopoverContent>
+        </Popover>
+    )
+  }
+
   return (
     <TooltipProvider>
       <Tooltip delayDuration={100}>
-        <TooltipTrigger
-          className="absolute flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 border-white bg-primary shadow-lg transition-transform hover:scale-110 md:h-10 md:w-10"
-          style={style}
-          aria-label={category.name}
-        >
-          <Icon className="h-4 w-4 text-primary-foreground md:h-5 md:w-5" />
+        <TooltipTrigger asChild>
+          <MarkerButton category={category} style={style} />
         </TooltipTrigger>
         <TooltipContent
           side="top"
@@ -41,19 +77,18 @@ const Marker = ({
   )
 }
 
+const puntosDeInteres = [
+  { id: 'reception', position: { top: '50%', left: '95%' } },
+  { id: 'zip-lining', position: { top: '50%', left: '60%' } },
+  { id: 'kayak', position: { top: '42%', left: '82%' } },
+  { id: 'bicycle', position: { top: '25%', left: '68%' } },
+  { id: 'atv', position: { top: '25%', left: '59%' } },
+];
+
 const categoryInfo = phraseData.reduce((acc, category) => {
   acc[category.id] = { name: category.name, icon: category.icon };
   return acc;
 }, {} as Record<string, { name: string, icon: React.ComponentType<{ className?: string }> }>);
-
-
-const puntosDeInteres = [
-  { id: 'reception', position: { top: '50%', left: '95%' } },     // R
-  { id: 'zip-lining', position: { top: '50%', left: '60%' } },  // T
-  { id: 'kayak', position: { top: '42%', left: '82%' } },         // K
-  { id: 'bicycle', position: { top: '25%', left: '68%' } },       // B
-  { id: 'atv', position: { top: '25%', left: '59%' } },           // C
-];
 
 
 export function Map() {

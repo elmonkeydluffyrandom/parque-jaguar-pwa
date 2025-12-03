@@ -48,11 +48,11 @@ const categoryInfo = phraseData.reduce((acc, category) => {
 
 
 const puntosDeInteres = [
-  { id: 'reception', position: { top: '80%', left: '88%' } },     // R
-  { id: 'zip-lining', position: { top: '58%', left: '42%' } },  // T
-  { id: 'kayak', position: { top: '65%', left: '76%' } },         // K
-  { id: 'bicycle', position: { top: '40%', left: '68%' } },       // B
-  { id: 'atv', position: { top: '40%', left: '38%' } },           // C
+  { id: 'reception', position: { top: '100%', left: '95%' } },     // R
+  { id: 'zip-lining', position: { top: '50%', left: '50%' } },  // T
+  { id: 'kayak', position: { top: '42%', left: '82%' } },         // K
+  { id: 'bicycle', position: { top: '100%', left: '68%' } },       // B
+  { id: 'atv', position: { top: '25%', left: '32%' } },           // C
 ];
 
 

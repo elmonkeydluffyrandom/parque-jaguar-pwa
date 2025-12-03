@@ -46,8 +46,8 @@ export function HelpModal() {
             Aquí tienes algunos enlaces para aprender más sobre cómo leer el IPA y mejorar tu pronunciación:
           </p>
           <ul className="list-disc pl-5">
-            <li>(Próximamente: Enlace a video o página)</li>
-            <li>(Próximamente: Enlace a video o página)</li>
+            <li><a href="https://www.youtube.com/watch?v=JuFBtVFbtkA" target="_blank" rel="noopener noreferrer">Aprende el Alfabeto Fonético Internacional (IPA)</a></li>
+            <li><a href="https://youtu.be/qlVWobVDix8?si=A3g39hXzSIxmwvQF" target="_blank" rel="noopener noreferrer">¿Qué es el IPA y cómo puede ayudarte?</a></li>
           </ul>
         </div>
       </DialogContent>

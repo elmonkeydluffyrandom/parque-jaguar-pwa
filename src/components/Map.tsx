@@ -3,12 +3,6 @@ import Image from 'next/image'
 
 import { Card } from '@/components/ui/card'
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from '@/components/ui/tooltip'
-import {
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -16,7 +10,6 @@ import {
 import { cn } from '@/lib/utils'
 import { phraseData, type PhraseCategory } from '@/lib/phrases'
 import placeholderImages from '@/lib/placeholder-images.json'
-import { useIsMobile } from '@/hooks/use-mobile'
 
 const MarkerButton = ({
   category,
@@ -45,44 +38,24 @@ const Marker = ({
   category: { name: string; icon: React.ComponentType<{ className?: string }> }
   style: React.CSSProperties
 }) => {
-  const isMobile = useIsMobile();
-
-  if (isMobile) {
-    return (
-        <Popover>
-            <PopoverTrigger asChild>
-                <MarkerButton category={category} style={style} />
-            </PopoverTrigger>
-            <PopoverContent side="top" className="w-auto border-primary bg-primary text-primary-foreground p-2">
-                <p className="font-bold text-sm">{category.name}</p>
-            </PopoverContent>
-        </Popover>
-    )
-  }
-
   return (
-    <TooltipProvider>
-      <Tooltip delayDuration={100}>
-        <TooltipTrigger asChild>
-          <MarkerButton category={category} style={style} />
-        </TooltipTrigger>
-        <TooltipContent
-          side="top"
-          className="border-primary bg-primary text-primary-foreground"
-        >
-          <p className="font-bold">{category.name}</p>
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
+      <Popover>
+          <PopoverTrigger asChild>
+              <MarkerButton category={category} style={style} />
+          </PopoverTrigger>
+          <PopoverContent side="top" className="w-auto border-primary bg-primary text-primary-foreground p-2">
+              <p className="font-bold text-sm">{category.name}</p>
+          </PopoverContent>
+      </Popover>
   )
 }
 
 const puntosDeInteres = [
-  { id: 'reception', position: { top: '50%', left: '95%' } },
-  { id: 'zip-lining', position: { top: '50%', left: '60%' } },
-  { id: 'kayak', position: { top: '42%', left: '82%' } },
-  { id: 'bicycle', position: { top: '25%', left: '68%' } },
-  { id: 'atv', position: { top: '25%', left: '59%' } },
+  { id: 'reception', position: { top: '33%', left: '85%' } },
+  { id: 'zip-lining', position: { top: '48%', left: '50%' } },
+  { id: 'kayak', position: { top: '55%', left: '77%' } },
+  { id: 'bicycle', position: { top: '69%', left: '55%' } },
+  { id: 'atv', position: { top: '69%', left: '45%' } },
 ];
 
 const categoryInfo = phraseData.reduce((acc, category) => {

@@ -2,10 +2,7 @@
 
 import { Volume2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
-import { useState, useEffect } from 'react'
 import { useToast } from "@/hooks/use-toast"
-
 
 type Props = {
   text: string
@@ -13,42 +10,46 @@ type Props = {
 }
 
 export function AudioPlayer({ text, lang }: Props) {
-  const [isSupported, setIsSupported] = useState(false)
   const { toast } = useToast()
 
-  useEffect(() => {
-    setIsSupported(typeof window !== 'undefined' && 'speechSynthesis' in window)
-  }, [])
-
   const playAudio = () => {
+    const isSupported = typeof window !== 'undefined' && 'speechSynthesis' in window;
+
     if (!isSupported) {
       toast({
         variant: "destructive",
-        title: "Audio Not Supported",
-        description: "Your browser does not support text-to-speech.",
+        title: "Audio no soportado",
+        description: "Tu navegador no soporta la síntesis de voz.",
       })
       return
     }
-    // Cancel any ongoing speech before starting a new one
+
+    // Cancelar cualquier síntesis en curso para evitar conflictos.
     window.speechSynthesis.cancel()
+    
+    // "Despertar" la API en algunos navegadores móviles obteniendo las voces.
+    const voices = window.speechSynthesis.getVoices();
 
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang
+    
+    // Asignar una voz si está disponible para el idioma.
+    const selectedVoice = voices.find(voice => voice.lang === lang)
+    if (selectedVoice) {
+      utterance.voice = selectedVoice
+    }
+
     window.speechSynthesis.speak(utterance)
   }
 
   return (
-    <TooltipProvider>
-      <Tooltip delayDuration={300}>
-        <TooltipTrigger asChild>
-          <Button variant="ghost" size="icon" onClick={playAudio} disabled={!isSupported} aria-label="Play pronunciation">
-            <Volume2 className="h-5 w-5 text-muted-foreground transition-colors hover:text-accent" />
-          </Button>
-        </TooltipTrigger>
-        <TooltipContent>
-          <p>Listen to pronunciation</p>
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
+    <Button 
+      variant="ghost" 
+      size="icon" 
+      onClick={playAudio} 
+      aria-label="Escuchar pronunciación"
+    >
+      <Volume2 className="h-5 w-5 text-muted-foreground transition-colors hover:text-accent" />
+    </Button>
   )
 }

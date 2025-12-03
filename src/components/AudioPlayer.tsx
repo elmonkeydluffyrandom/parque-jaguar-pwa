@@ -24,9 +24,10 @@ export function AudioPlayer({ text, lang }: Props) {
     }
 
     // Detiene cualquier locución que esté en curso para evitar superposiciones.
+    // Esto es crucial en móviles para "resetear" el estado de la API.
     window.speechSynthesis.cancel()
 
-    // Crea una nueva instancia de la locución.
+    // Crea una nueva instancia de la locución en cada clic.
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = lang
 

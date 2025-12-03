@@ -51,11 +51,11 @@ const Marker = ({
 }
 
 const puntosDeInteres = [
-  { id: 'reception', position: { top: '50%', left: '95%' } },     // R
-  { id: 'zip-lining', position: { top: '50%', left: '60%' } },  // T
-  { id: 'kayak', position: { top: '42%', left: '82%' } },         // K
-  { id: 'bicycle', position: { top: '25%', left: '68%' } },       // B
-  { id: 'atv', position: { top: '25%', left: '59%' } },           // C
+  { id: 'reception', position: { top: '50%', left: '95%' } },
+  { id: 'zip-lining', position: { top: '50%', left: '60%' } },
+  { id: 'kayak', position: { top: '42%', left: '82%' } },
+  { id: 'bicycle', position: { top: '25%', left: '68%' } },
+  { id: 'atv', position: { top: '25%', left: '59%' } },
 ];
 
 const categoryInfo = phraseData.reduce((acc, category) => {
@@ -76,8 +76,8 @@ export function Map() {
   return (
     <div className="relative w-full overflow-hidden rounded-lg border">
       <Image
-        src="/map.png"
-        alt="Mapa del Parque Jaguar"
+        src={mapImage.src}
+        alt={mapImage.alt}
         width={mapImage.width}
         height={mapImage.height}
         className="h-auto w-full"

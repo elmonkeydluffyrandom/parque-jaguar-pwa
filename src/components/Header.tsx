@@ -2,6 +2,7 @@ import { JaguarIcon } from './icons'
 import { HelpModal } from './HelpModal'
 import { MapModal } from './MapModal'
 import { ThemeToggle } from './ThemeToggle'
+import { AddPhraseButton } from './AddPhraseButton'
 
 export function Header() {
   return (
@@ -14,6 +15,7 @@ export function Header() {
       </div>
       <div className="flex items-center gap-1 sm:gap-2">
         <MapModal />
+        <AddPhraseButton url="https://acortar.link/Kw2Wuc" />
         <HelpModal />
         <ThemeToggle />
       </div>
